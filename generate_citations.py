@@ -1,10 +1,11 @@
 from dataclasses import dataclass
-from typing import Optional
+from typing import Optional, List
 import json
 import os
+import re
 
 # Shared first author
-shared = [
+shared_pubs = [
     'Self-driving laboratory for accelerated discovery of thin-film materials'
 ]
 
@@ -12,7 +13,7 @@ shared = [
 @dataclass
 class Author:
     last: str
-    first_initials: str
+    first_initials: List[str]
 
 
 @dataclass
@@ -22,12 +23,20 @@ class Paper:
     year: int
     volume: Optional[str]
     issue: Optional[str]
+    authors: List[Author]
+
+    def __lt__(self, other):
+        return self.year < other.year
 
 
-def process_metadata():
-    # Process the metadata files from crossref into an HTML table.
+def make_pub_objects() -> List[Paper]:
+    """
+    Process the metadata files from crossref into Python objects
+    :return: List of papers
+    """
+    #
 
-    # data
+    # data to return
     papers = []
 
     # For each file
@@ -50,6 +59,24 @@ def process_metadata():
                     issue = int(j['message']['journal-issue']['issue'])
                 else:
                     volume = int(j['message']['volume'])
+                shared = True if title in shared_pubs else False
+
+                # Make the authors
+                authors = []
+
+                # For each author
+                for ia, a in enumerate(j['message']['author']):
+
+                    last = a['family']
+                    first_split = re.split(', |,| ', a['given'])
+                    first_inits = [fsplit[0] for fsplit in first_split]
+
+                    # Make, store
+                    author = Author(
+                        last=last,
+                        first_initials=first_inits,
+                    )
+                    authors.append(author)
 
                 # Store metadata
                 paper = Paper(
@@ -58,31 +85,22 @@ def process_metadata():
                     year=year,
                     issue=issue,
                     volume=volume,
+                    authors=authors,
                 )
 
+    # Sort
+    papers = sorted(papers)
+    return papers
 
-                # Store
-                papers.append(paper)
+
+def generate_php():
+    """
+    Generate PHP to include for publications.
+    :return: None
+    """
+
+    papers = make_pub_objects()
 
 
-
-                # # Authors
-                # d['authors'] = ''
-                # ca = len(j['message']['author'])
-                # sa = ''
-                # for ia, a in enumerate(j['message']['author']):
-                #     sa += a['family'] + ', '
-                #     g = a['given'].split(' ')
-                #     sa += g[0][0] + '.'
-                #     if len(g) > 1:
-                #         sa += ''.join(g[1:])
-                #     if ia < 2 and d['title'] in shared:
-                #         sa += '*'
-                #     if ca > 3 and ia + 2 < ca:
-                #         sa += ', '
-                #     elif ca > 3 and ia + 2 == ca:
-                #         sa += ' & '
-                # d['authors'] += sa
-                # print(d['authors'])
 if __name__ == '__main__':
-    process_metadata()
+    generate_php()
