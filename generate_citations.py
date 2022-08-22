@@ -28,6 +28,24 @@ class Paper:
     def __lt__(self, other):
         return self.year < other.year
 
+    def get_author_string(self) -> str:
+        """
+        Generate HTML string for authors
+        :return: string
+        """
+
+        auth_str = ''
+        for author in self.authors:
+            auth_str.append(author.last)
+        return auth_str
+
+
+    def get_paper_string(self) -> str:
+        """
+        Generate HTML string for paper
+        :return: string
+        """
+        return self.title
 
 def make_pub_objects() -> List[Paper]:
     """
@@ -87,6 +105,7 @@ def make_pub_objects() -> List[Paper]:
                     volume=volume,
                     authors=authors,
                 )
+                papers.append(paper)
 
     # Sort
     papers = sorted(papers)
@@ -99,7 +118,19 @@ def generate_php():
     :return: None
     """
 
+    # Data
+    php = ''
     papers = make_pub_objects()
+
+    # Iterate through papers
+    for paper in papers:
+        php += '<tr><td>'
+        php += paper.get_paper_string()
+        php += '</td></tr>\n'
+
+    # Save to disk
+    with open('publications.php', 'w') as f:
+        f.write(php)
 
 
 if __name__ == '__main__':
