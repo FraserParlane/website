@@ -3233,3 +3233,22 @@ input, select, textarea {
 	/*background-color: #c8c8c8;*/
 	-webkit-transition: all 1s ease;
 }
+
+.years {
+	line-height: 1.5em;
+}
+
+.years tr {
+	border: none;
+}
+
+.years tr td {
+	background-color: #ffffff;
+	border: none;
+	border-image-width: 0;
+}
+
+.years tr td:nth-child(2n) {
+	text-align: right;
+	font-weight: bold;
+}
