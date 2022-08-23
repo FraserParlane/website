@@ -179,7 +179,7 @@ def generate_php():
     papers = make_pub_objects()
 
     # Add temporary MRS reference
-    with open('../php/temp_references.php') as f:
+    with open('../php/temp_publications.php') as f:
         php += f.read()
 
     # Iterate through papers
