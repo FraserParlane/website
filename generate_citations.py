@@ -8,6 +8,7 @@ import re
 shared_pubs = [
     'Self-driving laboratory for accelerated discovery of thin-film materials'
 ]
+priorities = []
 
 
 @dataclass
@@ -15,15 +16,27 @@ class Author:
     last: str
     first_initials: List[str]
 
+    def __post_init__(self):
+        self.me = True if self.last == 'Parlane' else False
+
 
 @dataclass
 class Paper:
     title: str
     journal: str
     year: int
+    url: str
+    page: str
     volume: Optional[str]
     issue: Optional[str]
     authors: List[Author]
+    priority: bool
+
+    def __post_init__(self):
+        self.shared = True if self.title in shared_pubs else False
+        self.num_authors = len(self.authors)
+        if self.title[-1] == '.':
+            self.title = self.title[:-1]
 
     def __lt__(self, other):
         return self.year < other.year
@@ -34,18 +47,44 @@ class Paper:
         :return: string
         """
 
-        auth_str = ''
-        for author in self.authors:
-            auth_str.append(author.last)
-        return auth_str
+        php = ''
+        for i, author in enumerate(self.authors):
+            if author.me:
+                php += '<b>'
 
+            # Names
+            php += author.last + ', '
+            php += '. '.join(author.first_initials) + '.'
+
+            # Formatting
+            if i < 2 and self.shared:
+                php += '*'
+            if author.me:
+                php += '</b>'
+
+            # Final ampersand
+            if i + 1 != self.num_authors:
+                php += ', '
+            if i + 2 == self.num_authors:
+                php += '& '
+        return php
 
     def get_paper_string(self) -> str:
         """
         Generate HTML string for paper
         :return: string
         """
-        return self.title
+
+        php = ''
+        php += self.get_author_string()
+        php += ' '
+        php += f'<a href="{self.url}">{self.title}.</a> '
+        php += f'<i>{self.journal}</i> '
+        b_str = self.issue if self.issue is not None else self.volume
+        php += f'<b>{b_str}</b>, {self.page} ({self.year}).'
+
+        return php
+
 
 def make_pub_objects() -> List[Paper]:
     """
@@ -69,10 +108,15 @@ def make_pub_objects() -> List[Paper]:
                 # Extract information from JSON
                 title = j['message']['title'][0]
                 journal = j['message']['short-container-title'][0]
-                url = j['message']['link'][0]['URL']
+                url = j['message']['resource']['primary']['URL']
                 year = int(j['message']['published']['date-parts'][0][0])
                 issue = None
                 volume = None
+                priority = True if title in priorities else False
+                if j['message'].get('page') is not None:
+                    page = j['message']['page']
+                else:
+                    page = '111111111111111111'
                 if j['message'].get('journal-issue') is not None:
                     issue = int(j['message']['journal-issue']['issue'])
                 else:
@@ -101,14 +145,17 @@ def make_pub_objects() -> List[Paper]:
                     title=title,
                     journal=journal,
                     year=year,
+                    page=page,
                     issue=issue,
+                    url=url,
                     volume=volume,
                     authors=authors,
+                    priority=priority
                 )
                 papers.append(paper)
 
     # Sort
-    papers = sorted(papers)
+    papers = sorted(papers, reverse=True)
     return papers
 
 
@@ -125,6 +172,10 @@ def generate_php():
     # Iterate through papers
     for paper in papers:
         php += '<tr><td>'
+
+        # Generate author string
+
+        php += ' '
         php += paper.get_paper_string()
         php += '</td></tr>\n'
 
