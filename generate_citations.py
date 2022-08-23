@@ -6,7 +6,9 @@ import re
 
 # Shared first author
 shared_pubs = [
-    'Self-driving laboratory for accelerated discovery of thin-film materials'
+    'Self-driving laboratory for accelerated discovery of thin-film materials',
+    'A self-driving laboratory advances the Pareto front for material properties',
+    'Flexible automation for self-driving laboratories',
 ]
 priorities = []
 
@@ -78,7 +80,7 @@ class Paper:
         php = ''
         php += self.get_author_string()
         php += ' '
-        php += f'<a href="{self.url}">{self.title}.</a> '
+        php += f'<a href="{self.url}" target="_blank">{self.title}.</a> '
         php += f'<i>{self.journal}</i> '
         b_str = self.issue if self.issue is not None else self.volume
         php += f'<b>{b_str}</b>, {self.page} ({self.year}).'
@@ -107,7 +109,11 @@ def make_pub_objects() -> List[Paper]:
 
                 # Extract information from JSON
                 title = j['message']['title'][0]
-                journal = j['message']['short-container-title'][0]
+                if j['message'].get('short-container-title'):
+                    journal = j['message']['short-container-title'][0]
+                else:
+                    journal = j['message']['container-title'][0]
+                    journal += ' (' + j['message']['publisher'] + ')'
                 url = j['message']['resource']['primary']['URL']
                 year = int(j['message']['published']['date-parts'][0][0])
                 issue = None
@@ -115,12 +121,15 @@ def make_pub_objects() -> List[Paper]:
                 priority = True if title in priorities else False
                 if j['message'].get('page') is not None:
                     page = j['message']['page']
-                else:
-                    page = '111111111111111111'
+                elif j.get('published') is not None:
+                    if j['published'].get('article-number') is not None:
+                        page = j['published']['article-number']
                 if j['message'].get('journal-issue') is not None:
                     issue = int(j['message']['journal-issue']['issue'])
-                else:
+                elif j['message'].get('volume') is not None:
                     volume = int(j['message']['volume'])
+                else:
+                    print('a')
                 shared = True if title in shared_pubs else False
 
                 # Make the authors
@@ -169,12 +178,15 @@ def generate_php():
     php = ''
     papers = make_pub_objects()
 
+    # Add temporary MRS reference
+    with open('temp_references.php') as f:
+        php += f.read()
+
     # Iterate through papers
     for paper in papers:
         php += '<tr><td>'
 
-        # Generate author string
-
+        # Generate paper string
         php += ' '
         php += paper.get_paper_string()
         php += '</td></tr>\n'
