@@ -1,7 +1,7 @@
 
 <!-- Force page not to cache. -->
-<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
-<META HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
+<!--<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">-->
+<!--<META HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">-->
 
 <!DOCTYPE HTML>
 <html>
@@ -11,8 +11,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+        <!-- Preloads -->
 	</head>
-	<body class="is-preload">
+    <body class="is-preload">
+        <link rel="prefetch" as="image" href="images/research/covid-hover.png">
 
 		<!-- Header -->
 			<header id="header">

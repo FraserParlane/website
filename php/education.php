@@ -2,7 +2,7 @@
     <tr>
         <td>
             Ph.D. in Chemistry, The University of British Columbia<br />
-            <i>Advisor: Prof. Curtis P. Berlinguette</i>
+            <i>Advisor: <a href="https://groups.chem.ubc.ca/cberling/", target="_blank">Prof. Curtis P. Berlinguette</a></i>
         </td>
         <td>
             2015-2022
