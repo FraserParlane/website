@@ -28,29 +28,10 @@
 					<section>
 
                         <h1>Education</h1>
-                        <table class="years">
-                            <tr>
-                                <td>
-                                    Ph.D. in Chemistry, The University of British Columbia<br />
-                                    <i>Advisor: Prof. Curtis P. Berlinguette</i>
-                                </td>
-                                <td>
-                                    2015-2022
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    B.Sc. in Chemistry, Trinity Western University<br />
-                                    <i>Advisor: Prof. Craig D. Montgomery</i>
-                                </td>
-                                <td>
-                                    2010-2014
-                                </td>
-                            </tr>
-                        </table>
+                        <?php include 'php/education.php'; ?>
 
                         <h1>Research</h1>
-                        [Develop abstract icons for each research section]
+                        <?php include 'php/research.php'; ?>
 
                         <h1>Awards and Honors</h1>
                         <table class="years">
