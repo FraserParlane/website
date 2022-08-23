@@ -28,7 +28,7 @@
 					<section>
 						<h1>Publications</h1>
 						A (*) denotes where two authors contributed equally.<br /><br />
-						<table>
+						<table class="references">
                             <?php include 'publications.php'; ?>
                         </table>
                     </section>
