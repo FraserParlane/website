@@ -99,7 +99,7 @@ def make_pub_objects() -> List[Paper]:
     papers = []
 
     # For each file
-    path = os.path.join(os.getcwd(), 'crossref_metadata')
+    path = os.path.join(os.getcwd(), '../crossref_metadata')
     for file_name in os.listdir(path):
         if file_name.endswith('.json'):
 
@@ -179,7 +179,7 @@ def generate_php():
     papers = make_pub_objects()
 
     # Add temporary MRS reference
-    with open('temp_references.php') as f:
+    with open('../php/temp_references.php') as f:
         php += f.read()
 
     # Iterate through papers
@@ -192,7 +192,7 @@ def generate_php():
         php += '</td></tr>\n'
 
     # Save to disk
-    with open('publications.php', 'w') as f:
+    with open('../php/publications.php', 'w') as f:
         f.write(php)
 
 
