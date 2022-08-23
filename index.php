@@ -54,14 +54,14 @@
 
                         <h1>Awards and Honors</h1>
                         <table class="years">
-                            <?php include 'awards.php'; ?>
+                            <?php include 'php/awards.php'; ?>
                         </table>
 
 
 						<h1>Publications</h1>
 						A (*) denotes where two authors contributed equally.<br /><br />
 						<table class="references">
-                            <?php include 'publications.php'; ?>
+                            <?php include 'php/publications.php'; ?>
                         </table>
 
 
