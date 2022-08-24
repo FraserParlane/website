@@ -19,7 +19,7 @@
         <td><img src="images/articles/canada.png"></td>
         <td>
             <a href="https://www.canada.ca/en/natural-resources-canada/news/2018/11/canada-invests-in-first-of-its-kind-robotic-platform-at-university-of-british-columbia.html" target="_blank">
-                Canada Invests in First-of-its-Kind Robotic Platform at University of British Columbia
+                Canada Invests in First-of-its-Kind Robotic Platform at University of British Columbia.
             </a> <i>Natural Resources Canada</i> (2018).
         </td>
     </tr>
@@ -55,7 +55,7 @@
         <td>
             <a href="https://www.nature.com/articles/d41586-019-01683-9" target="_blank">
                 Google revives controversial cold-fusion experiments.
-            </a> Elizabeth Gibney <i>Nature News</i> 2019
+            </a> Elizabeth Gibney <i>Nature News</i> (2019).
         </td>
     </tr>
 
@@ -72,34 +72,40 @@
         <td><img src="images/articles/the-globe-and-mail.png"></td>
         <td>
             <a href="https://www.theglobeandmail.com/canada/british-columbia/article-ai-robot-lends-ubc-a-hand-in-alternative-energy-research/" target="_blank">
-                AI robot lends UBC a hand in alternative-energy research
+                AI robot lends UBC a hand in alternative-energy research.
             </a> Lakshmi Sadhu  <i>The Globe and Mail</i> (2018).
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/.png"></td>
+        <td><img src="images/articles/business-insider.png"></td>
         <td>
-            <a href="" target="_blank">
-                a
-            </a> d
+            <a href="https://markets.businessinsider.com/news/stocks/canada-invests-in-first-of-its-kind-robotic-platform-at-university-of-british-columbia-1027764292" target="_blank">
+                Canada Invests in First-of-its-Kind Robotic Platform at University of British Columbia.
+            </a> <i>Business Insider</i> (2018).
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/.png"></td>
+        <td><img src="images/articles/mobile-syrup.png"></td>
         <td>
-            <a href="" target="_blank">
-                a
-            </a> d
+            <a href="https://mobilesyrup.com/2018/11/30/university-of-british-columbia-researchers-ai-robot-platform-clean-energy/" target="_blank">
+                BC researchers working on ‘first-of-its-kind’ AI-powered clean energy robotic platform.
+            </a> Bradly Shankar <i>Mobile Syrup</i> (2018).
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/.png"></td>
+        <td><img src="images/articles/inside-unmanned-systems.png"></td>
         <td>
-            <a href="" target="_blank">
-                a
-            </a> d
+            <a href="https://insideunmannedsystems.com/ada-a-self-driving-laboratory-for-clean-energy-technologies/" target="_blank">
+                Ada: A Self-driving Laboratory for Clean Energy Technologies.
+            </a> Benjamin P. MacLeod et al. <i>Inside Unmanned Systems</i> (2022).
         </td>
     </tr>
-
+    <tr>
+        <td><img src="images/articles/twu.png"></td>
+        <td>
+            <a href="https://issuu.com/trinity_western_university/docs/tw_magazine_issue_25-pages-final" target="_blank">
+                Elemental art.
+            </a> Shara Lee, page 8. <i>Trinity Western Magazine</i> (2014).
+        </td>
+    </tr>
 </table>
-<!--TWU periodic table, all CF, all Ada, UBC, etc.-->
