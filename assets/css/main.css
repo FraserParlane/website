@@ -3219,6 +3219,8 @@ input, select, textarea {
 
 	}
 
+/* Fraser Parlane's CSS begins here. 20220824 */
+
 .references {
 	line-height: 1.5em;
 	padding-bottom: 8px!important;
@@ -3284,8 +3286,6 @@ input, select, textarea {
 	padding-top: 2.5em;
 }
 
-
-
 .research-box {
 	position: relative;
 	top: 0;
@@ -3293,14 +3293,11 @@ input, select, textarea {
 }
 
 .research-image {
-	width: 12em;
-	height: 12em;
+	width: 14em;
+	height: 14em;
 	top: 0;
 	left: 0;
-}
-
-.research-image-blue {
-
+    border-radius: 100%;
 }
 
 .research-image-grey {
@@ -3314,4 +3311,21 @@ input, select, textarea {
 
 .research-image-grey:hover {
 	opacity: 0;
+}
+
+.menu-links {
+	list-style-type: none;
+	padding-top: 100px;
+	transition: border-color 0.2s ease-in-out;
+	font-size: 1.35em;
+	line-height: 1.75;
+}
+
+.menu-links a {
+	color: white;
+	border-bottom: dotted 1px;
+}
+
+.menu-links a:hover {
+	border-bottom: none;
 }

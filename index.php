@@ -16,11 +16,7 @@
 
         <!-- Header -->
         <header id="header">
-            <div class="inner">
-                <a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-                <h1><strong>Fraser Parlane</strong>, Ph.D.<br /></h1>
-                <a href='&#109;a&#105;&#108;t&#111;&#58;%6Dail%4&#48;&#102;r%6&#49;se%&#55;&#50;%70&#97;&#114;%6&#67;a%&#54;Ee&#46;&#99;%6Fm'>mai&#108;&#64;&#102;raserparlane&#46;&#99;o&#109;</a><br />
-            </div>
+            <?php include 'php/header.php'; ?>
         </header>
 
         <!-- Main -->
@@ -33,7 +29,7 @@
                     <h1 id="research">Research</h1>
                     <?php include 'php/research.php'; ?>
 
-                    <h1 id="awards">Awards and Honors</h1>
+                    <h1 id="awards">Awards</h1>
                     <?php include 'php/awards.php'; ?>
 
                     <h1 id="publications">Publications</h1>
