@@ -35,6 +35,9 @@
                     <h1 id="publications">Publications</h1>
                     <?php include 'php/publications.php'; ?>
 
+                    <h1 id="articles">Articles</h1>
+                    <?php include 'php/articles.php'; ?>
+
                 </section>
         </div>
 

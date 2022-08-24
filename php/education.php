@@ -2,7 +2,7 @@
     <tr>
         <td>
             Ph.D. in Chemistry, The University of British Columbia<br />
-            <i>Advisor: <a href="https://groups.chem.ubc.ca/cberling/", target="_blank">Prof. Curtis P. Berlinguette</a></i>
+            Advisor: <a href="https://groups.chem.ubc.ca/cberling/", target="_blank">Prof. Curtis P. Berlinguette</a>
         </td>
         <td>
             2015-2022
@@ -11,7 +11,7 @@
     <tr>
         <td>
             B.Sc. in Chemistry, Trinity Western University<br />
-            <i>Advisor: Prof. Craig D. Montgomery</i>
+            Advisor: Prof. Craig D. Montgomery
         </td>
         <td>
             2010-2014
