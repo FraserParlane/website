@@ -24,7 +24,7 @@
                 <img class="research-image research-image-grey" src="images/research/arc.jpg">
             </div>
         </td>
-        <td><b>[Google]</b>
+        <td><b>[data scientist for Google to work on advanced nuclear fusion reactors.]</b>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis molestie ante in dapibus. Curabitur viverra aliquet purus, sit amet feugiat magna interdum id. Vivamus id porttitor lacus. Vivamus commodo nulla ut augue sagittis sodales. Proin et convallis augue.
             <a href="" target="_blank"> 202</a>,
         </td>

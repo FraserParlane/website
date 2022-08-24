@@ -30,7 +30,7 @@ def get_paths():
     :return: paths
     """
     paths = []
-    
+
 
 def upload_website_to_ftp():
     """

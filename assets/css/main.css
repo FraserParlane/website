@@ -3329,3 +3329,41 @@ input, select, textarea {
 .menu-links a:hover {
 	border-bottom: none;
 }
+
+.articles {
+    line-height: 1.5em;
+}
+
+.articles tr {
+    border: none;
+}
+
+.articles tr td {
+    background-color: #ffffff;
+    border: none;
+    border-image-width: 0;
+    vertical-align: middle;
+}
+
+.articles img {
+    opacity: 0.25;
+    max-height: 30px;
+	max-width: 200px;
+}
+
+.articles td:nth-child(2n) {
+    padding-left: 50px;
+}
+
+.articles td:nth-child(2n+1) {
+	text-align: right;
+}
+
+.articles td {
+    padding-top: 50px;
+}
+
+/*.articles tr td:nth-child(2n) {*/
+/*    text-align: left;*/
+/*    !*font-weight: bold;*!*/
+/*}*/

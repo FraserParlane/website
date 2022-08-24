@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     </head>
-    <body class="is-preload">
+    <body class="is-preload" id="body">
 
         <!-- Header -->
         <header id="header">
@@ -35,8 +35,11 @@
                     <h1 id="publications">Publications</h1>
                     <?php include 'php/publications.php'; ?>
 
-                    <h1 id="articles">Articles</h1>
-                    <?php include 'php/articles.php'; ?>
+                    <h1 id="talks">Talks</h1>
+                    <?php include 'php/talks.php'; ?>
+
+                    <h1 id="press">Press</h1>
+                    <?php include 'php/press.php'; ?>
 
                 </section>
         </div>
