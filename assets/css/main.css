@@ -3402,25 +3402,25 @@ input, select, textarea {
 /* Intro text */
 .intro-text {
 	text-align: justify;
+	padding-top: 50px;
 }
 
 /* Button formatting */
-.actions {
-	text-align: center;
-	display: table;
-	margin: 0 auto;
 
+.actions-top {
+	padding-bottom: 150px;
 }
-.actions span {
+
+.actions-top span {
 	padding-right: 10px;
 }
-.actions li {
+.actions-top li {
 	vertical-align: middle;
 }
 
 @media screen and (max-width: 980px) {
 
-	ul.actions:not(.fixed) {
+	ul.actions-top:not(.fixed) {
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
@@ -3429,7 +3429,7 @@ input, select, textarea {
 		width: 100% !important;
 	}
 
-	ul.actions:not(.fixed) li {
+	ul.actions-top:not(.fixed) li {
 		-moz-flex-grow: 1;
 		-webkit-flex-grow: 1;
 		-ms-flex-grow: 1;
@@ -3443,28 +3443,27 @@ input, select, textarea {
 		width: 100%;
 	}
 
-	ul.actions:not(.fixed) li > * {
+	ul.actions-top:not(.fixed) li > * {
 		width: 100%;
 	}
 
-	ul.actions:not(.fixed) li:first-child {
+	ul.actions-top:not(.fixed) li:first-child {
 		padding-top: 0;
 	}
 
-	ul.actions:not(.fixed) li input[type="submit"],
-	ul.actions:not(.fixed) li input[type="reset"],
-	ul.actions:not(.fixed) li input[type="button"],
-	ul.actions:not(.fixed) li button,
-	ul.actions:not(.fixed) li .button {
+	ul.actions-top:not(.fixed) li input[type="submit"],
+	ul.actions-top:not(.fixed) li input[type="reset"],
+	ul.actions-top:not(.fixed) li input[type="button"],
+	ul.actions-top:not(.fixed) li button,
+	ul.actions-top:not(.fixed) li .button {
 		width: 100%;
 	}
 
-	ul.actions:not(.fixed) li input[type="submit"].icon:before,
-	ul.actions:not(.fixed) li input[type="reset"].icon:before,
-	ul.actions:not(.fixed) li input[type="button"].icon:before,
-	ul.actions:not(.fixed) li button.icon:before,
-	ul.actions:not(.fixed) li .button.icon:before {
+	ul.actions-top:not(.fixed) li input[type="submit"].icon:before,
+	ul.actions-top:not(.fixed) li input[type="reset"].icon:before,
+	ul.actions-top:not(.fixed) li input[type="button"].icon:before,
+	ul.actions-top:not(.fixed) li button.icon:before,
+	ul.actions-top:not(.fixed) li .button.icon:before {
 		margin-left: -0.5em;
 	}
-
 }
