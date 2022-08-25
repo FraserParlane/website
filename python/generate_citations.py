@@ -178,18 +178,24 @@ def generate_php():
     php = ''
     papers = make_pub_objects()
 
+    # Add header
+    php += 'A (*) denotes where two authors contributed equally.<br /><br />\n<table class="years">'
+
     # Add temporary MRS reference
     with open('../php/temp_publications.php') as f:
         php += f.read()
 
     # Iterate through papers
     for paper in papers:
-        php += '<tr><td>'
+        php += '\t<tr><td>'
 
         # Generate paper string
         php += ' '
         php += paper.get_paper_string()
         php += '</td></tr>\n'
+
+    # Add footer
+    php += '</table>'
 
     # Save to disk
     with open('../php/publications.php', 'w') as f:
