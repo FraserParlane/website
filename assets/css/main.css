@@ -3325,11 +3325,11 @@ input, select, textarea {
 
 .menu-links a {
 	color: white;
-	border-bottom: dotted 1px;
+	border-bottom: none;
 }
 
 .menu-links a:hover {
-	border-bottom: none;
+	border-bottom: dotted 1px;
 }
 
 .articles {
@@ -3363,6 +3363,11 @@ input, select, textarea {
 
 .articles td {
     padding-top: 50px;
+}
+
+.years h3 {
+	margin-bottom: 0px;
+	/*font-weight: bold;*/
 }
 
 /*.articles tr td:nth-child(2n) {*/
