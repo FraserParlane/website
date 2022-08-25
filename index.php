@@ -31,8 +31,8 @@
                 <h1 id="research">Research</h1>
                 <?php include 'php/research.php'; ?>
 
-                <h1 id="roles">Roles</h1>
-                <?php include 'php/roles.php'; ?>
+                <h1 id="positions">Positions</h1>
+                <?php include 'php/positions.php'; ?>
 
                 <h1 id="awards">Awards</h1>
                 <?php include 'php/awards.php'; ?>
