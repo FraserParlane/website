@@ -49,4 +49,3 @@
         <td>2015</td>
     </tr>
 </table>
-lab placements (see CREATE), Periodic table, CSID, etc.

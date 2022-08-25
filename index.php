@@ -49,10 +49,7 @@
                 <h1 id="press">Press</h1>
                 <?php include 'php/press.php'; ?>
 
-                <!-- Humphrey group, MITACS / UBC stuff, Periodic Table, CSID, github, scholar,  -->
-
-
-                <!-- Volunteer -->
+                <!-- lab placements (see CREATE), Periodic table, CSID, conference proceedings, -->
 
             </section>
         </div>

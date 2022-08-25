@@ -1,2 +1,2 @@
-Intro text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis molestie ante in dapibus. Curabitur viverra aliquet purus, sit amet feugiat magna interdum id. Vivamus id porttitor lacus. Vivamus commodo nulla ut augue sagittis sodales. Proin et convallis augue.<br />
+My research aims to accelerate the discovery and optimization of advanced clean energy materials by developing self-driving laboratories that combine flexible automation with machine learning and computational screening.<br />
 <a href=""><span class="icon solid fa-mobile-alt">&nbsp;google scholar, github, map location</span></a>
