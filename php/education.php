@@ -11,7 +11,7 @@
     <tr>
         <td>
             B.Sc. in Chemistry, Trinity Western University<br />
-            Advisor: Prof. Craig D. Montgomery
+            President's Scholarship & Dean's List recipient<br />
         </td>
         <td>
             2010-2014

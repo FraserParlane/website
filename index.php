@@ -21,27 +21,38 @@
 
         <!-- Main -->
         <div id="main">
-                <section>
+            <section>
 
-                    <h1 id="education">Education</h1>
-                    <?php include 'php/education.php'; ?>
+                <?php include 'php/intro.php'; ?>
 
-                    <h1 id="research">Research</h1>
-                    <?php include 'php/research.php'; ?>
+                <h1 id="education">Education</h1>
+                <?php include 'php/education.php'; ?>
 
-                    <h1 id="awards">Awards</h1>
-                    <?php include 'php/awards.php'; ?>
+                <h1 id="research">Research</h1>
+                <?php include 'php/research.php'; ?>
 
-                    <h1 id="publications">Publications</h1>
-                    <?php include 'php/publications.php'; ?>
+                <h1 id="roles">Roles</h1>
+                <?php include 'php/roles.php'; ?>
 
-                    <h1 id="talks">Talks</h1>
-                    <?php include 'php/talks.php'; ?>
+                <h1 id="awards">Awards</h1>
+                <?php include 'php/awards.php'; ?>
 
-                    <h1 id="press">Press</h1>
-                    <?php include 'php/press.php'; ?>
+                <h1 id="publications">Publications</h1>
+                <?php include 'php/publications.php'; ?>
 
-                </section>
+                <h1 id="talks">Talks</h1>
+                <?php include 'php/talks.php'; ?>
+
+                <!-- Posters -->
+
+                <h1 id="press">Press</h1>
+                <?php include 'php/press.php'; ?>
+
+                <!-- Humphrey group, MITACS / UBC stuff, Periodic Table, CSID, github, scholar,  -->
+
+                <!-- Volunteer -->
+
+            </section>
         </div>
 
         <!-- Footer -->
