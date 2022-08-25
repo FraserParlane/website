@@ -2639,7 +2639,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 10em;
 		}
 
 /* Footer */
@@ -3221,6 +3221,8 @@ input, select, textarea {
 
 /* Fraser Parlane's CSS begins here. 20220824 */
 
+/* References table formatting. */
+
 .references {
 	line-height: 1.5em;
 	padding-bottom: 8px!important;
@@ -3229,12 +3231,12 @@ input, select, textarea {
 .references td {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	/*background-color: #f9f9ff;*/
 }
 .references td:hover {
-	/*background-color: #c8c8c8;*/
 	-webkit-transition: all 1s ease;
 }
+
+/* A generic table with years in the right-hand column. */
 
 .years {
 	line-height: 1.25em;
@@ -3257,16 +3259,23 @@ input, select, textarea {
 	/*font-weight: bold;*/
 }
 
+.years h3 {
+	margin-bottom: 0px;
+	/*font-weight: bold;*/
+}
+
+/*The table containing the research circles. */
+
 .research-table {
 	line-height: 1.5em;
 }
 
 .research-table tr {
 	border: none;
+	background-color: transparent!important;
 }
 
 .research-table td {
-	background-color: #ffffff;
 	border: none;
 	border-image-width: 0;
 	vertical-align: middle;
@@ -3279,14 +3288,7 @@ input, select, textarea {
 	padding-right: 20px;
 }
 
-.research-table td:nth-child(2n) {
 
-}
-
-#main h1 {
-	text-align: center;
-	padding-top: 2.5em;
-}
 
 .research-box {
 	position: relative;
@@ -3315,12 +3317,19 @@ input, select, textarea {
 	opacity: 0;
 }
 
+/* The menu in the header. */
+
 .menu-links {
 	list-style-type: none;
-	padding-top: 100px;
+	padding-top: 50px;
+	padding-left: 0;
 	transition: border-color 0.2s ease-in-out;
 	font-size: 1.35em;
 	line-height: 1.75;
+}
+
+.menu-links li {
+	padding-left: 0;
 }
 
 .menu-links a {
@@ -3332,45 +3341,60 @@ input, select, textarea {
 	border-bottom: dotted 1px;
 }
 
-.articles {
+.press {
     line-height: 1.5em;
 }
 
-.articles tr {
+.press tr {
     border: none;
+    background-color: transparent!important;
 }
 
-.articles tr td {
-    background-color: #ffffff;
+.press tr td {
     border: none;
     border-image-width: 0;
     vertical-align: middle;
 }
 
-.articles img {
+.press img {
     opacity: 0.25;
     max-height: 30px;
 	max-width: 200px;
 }
 
-.articles td:nth-child(2n) {
+.press td:nth-child(2n) {
     padding-left: 50px;
 }
 
-.articles td:nth-child(2n+1) {
+.press td:nth-child(2n+1) {
 	text-align: right;
+	padding-left: 50px;
 }
 
-.articles td {
+.press td {
     padding-top: 50px;
 }
 
-.years h3 {
-	margin-bottom: 0px;
-	/*font-weight: bold;*/
+/* Collapse tables on mobile - something like this will work*/
+@media screen and (max-width: 980px) {
+	.table-collapse :is(table, thead, tbody, th, td, tr) {
+		display: block;
+	}
+
+	.table-collapse td:nth-child(2n+1) {
+		text-align: left;
+	}
+
+	.table-collapse td:nth-child(2n) {
+		padding-top: 10px;
+	}
+
+	.press img {
+		opacity: 0.5;
+	}
 }
 
-/*.articles tr td:nth-child(2n) {*/
-/*    text-align: left;*/
-/*    !*font-weight: bold;*!*/
-/*}*/
+#main h1 {
+	text-align: center;
+	padding-top: 2.5em;
+}

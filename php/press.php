@@ -1,4 +1,4 @@
-<table class="articles">
+<table class="press table-collapse">
     <tr>
         <td><img src="images/articles/science.png"></td>
         <td>

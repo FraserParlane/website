@@ -1,3 +1,4 @@
+<h2>Talks</h2>
 <table class="years">
     <tr>
         <td>
@@ -69,6 +70,18 @@
         </td>
         <td>
             2017
+        </td>
+    </tr>
+</table>
+
+<h2>Posters</h2>
+<table class="years">
+    <tr>
+        <td>
+            [Poster]
+        </td>
+        <td>
+            [Year]
         </td>
     </tr>
 </table>

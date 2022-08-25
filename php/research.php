@@ -1,4 +1,4 @@
-<table class="research-table">
+<table class="research-table table-collapse">
     <tr>
         <td>
             <div class="research-box">

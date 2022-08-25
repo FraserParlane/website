@@ -1,1 +1,1 @@
-<tr><td>MacLeod, B. P.*, <b>Parlane, F. G. L.*</b>, & Berlinguette, C. P. How to build an effective self-driving laboratory. <i>Invited submission: MRS Bulletin. Under review.</i> (2022)</td></tr>
+<tr><td>MacLeod, B. P.*, <b>Parlane, F. G. L.*</b>, & Berlinguette, C. P. How to build an effective self-driving laboratory. <i>Invited submission: MRS Bulletin. Under review</i> (2022).</td></tr>
