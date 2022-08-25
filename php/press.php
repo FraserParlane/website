@@ -96,6 +96,14 @@
         </td>
     </tr>
     <tr>
+        <td><img src="images/articles/ubc.png"></td>
+        <td>
+            <a href="https://science.ubc.ca/news/halogens-can-increase-solar-cell-performance-25-cent" target="_blank">
+                Halogens can increase solar cell performance by 25 per cent.
+            </a> Alex Walls, <i>The University of British Columbia</i> (2017).
+        </td>
+    </tr>
+    <tr>
         <td><img src="images/articles/twu.png"></td>
         <td>
             <a href="https://issuu.com/trinity_western_university/docs/tw_magazine_issue_25-pages-final" target="_blank">
