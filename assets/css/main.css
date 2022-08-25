@@ -3395,14 +3395,14 @@ input, select, textarea {
 }
 
 #main h1 {
-	text-align: center;
+	text-align: left;
 	padding-top: 2.5em;
 }
 
 /* Intro text */
 .intro-text {
-	text-align: justify;
-	padding-top: 50px;
+	/*text-align: justify;*/
+	padding-top: 10px;
 }
 
 /* Button formatting */
