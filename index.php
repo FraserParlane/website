@@ -40,15 +40,17 @@
                 <h1 id="publications">Publications</h1>
                 <?php include 'php/publications.php'; ?>
 
-                <h1 id="talks">Talks</h1>
-                <?php include 'php/talks.php'; ?>
+                <h1 id="talks-posters">Talks & Posters</h1>
+                <?php include 'php/talks-posters.php'; ?>
 
-                <!-- Posters -->
+                <h1 id="development">Professional development</h1>
+                <?php include 'php/development.php'; ?>
 
                 <h1 id="press">Press</h1>
                 <?php include 'php/press.php'; ?>
 
                 <!-- Humphrey group, MITACS / UBC stuff, Periodic Table, CSID, github, scholar,  -->
+
 
                 <!-- Volunteer -->
 

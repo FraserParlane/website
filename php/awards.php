@@ -5,5 +5,5 @@
     <tr><td>Balard Mobility Grant from Pôle chimie Balard</td><td>2014</td></tr>
     <tr><td>Best Poster Presentation in Category, Western Canadian Undergraduate Chemistry Conference (WCUCC)</td><td>2013</td></tr>
     <tr><td>President’s Scholarship from Trinity Western University</td><td>2013</td></tr>
-    <tr><td><a href="https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp" target="_blank">Undergraduate Student Research Award (USRA)</a> from NSERC</td><td>2012, 2013, 2015</td></tr>
+    <tr><td><a href="https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp" target="_blank">Undergraduate Student Research Award (USRA)</a> from NSERC</td><td>2012,&nbsp;2013,&nbsp;2015</td></tr>
 </table>

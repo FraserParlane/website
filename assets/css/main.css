@@ -3237,7 +3237,7 @@ input, select, textarea {
 }
 
 .years {
-	line-height: 1.5em;
+	line-height: 1.25em;
 }
 
 .years tr {
@@ -3248,10 +3248,12 @@ input, select, textarea {
 	background-color: #ffffff;
 	border: none;
 	border-image-width: 0;
+	padding-bottom: 15px;
 }
 
 .years tr td:nth-child(2n) {
 	text-align: right;
+	padding-left: 50px;
 	/*font-weight: bold;*/
 }
 
