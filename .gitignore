@@ -20,3 +20,4 @@ venv/
 *.mpeg
 /credentials.json
 /scrap/
+/images/articles/scrap/
