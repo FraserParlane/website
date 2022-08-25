@@ -21,7 +21,7 @@ def convert_image_to_webp(
     base, ext = os.path.splitext(path)
     if ext[1:] in convertable:
         image = Image.open(path)
-        new_path = base + '.wepb'
+        new_path = base + '.webp'
         image.save(new_path, format='webp')
         print(f'created {new_path}')
 
@@ -38,6 +38,7 @@ def convert_all_images_to_webp():
         os.path.join(repo, 'images'),
         os.path.join(repo, 'images', 'articles'),
         os.path.join(repo, 'images', 'research'),
+        os.path.join(repo, 'assets', 'css', 'images'),
     ]
 
     # Loop through all paths, images

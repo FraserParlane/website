@@ -2,8 +2,8 @@
     <tr>
         <td>
             <div class="research-box">
-                <img class="research-image research-image-blue" src="images/research/sdl-hover.jpg">
-                <img class="research-image research-image-grey" src="images/research/sdl.jpg">
+                <img class="research-image research-image-blue" src="images/research/sdl-hover.webp">
+                <img class="research-image research-image-grey" src="images/research/sdl.webp">
             </div>
         </td>
         <td><b>I built the world’s first self-driving laboratory for thin-film materials.</b>
@@ -20,8 +20,8 @@
     <tr>
         <td>
             <div class="research-box">
-                <img class="research-image research-image-blue" src="images/research/arc-hover.jpg">
-                <img class="research-image research-image-grey" src="images/research/arc.jpg">
+                <img class="research-image research-image-blue" src="images/research/arc-hover.webp">
+                <img class="research-image research-image-grey" src="images/research/arc.webp">
             </div>
         </td>
         <td><b>[data scientist for Google to work on advanced nuclear fusion reactors.]</b>
@@ -32,8 +32,8 @@
     <tr>
         <td>
             <div class="research-box">
-                <img class="research-image research-image-blue" src="images/research/covid-hover.jpg">
-                <img class="research-image research-image-grey" src="images/research/covid.jpg">
+                <img class="research-image research-image-blue" src="images/research/covid-hover.webp">
+                <img class="research-image research-image-grey" src="images/research/covid.webp">
             </div>
         </td>
         <td><b>[CovidBox]</b>
@@ -44,8 +44,8 @@
     <tr>
         <td>
             <div class="research-box">
-                <img class="research-image research-image-blue" src="images/research/xb-hover.jpg">
-                <img class="research-image research-image-grey" src="images/research/xb.jpg">
+                <img class="research-image research-image-blue" src="images/research/xb-hover.webp">
+                <img class="research-image research-image-grey" src="images/research/xb.webp">
             </div>
         </td>
         <td><b>[Halogen Bonding]</b>
@@ -55,8 +55,8 @@
     <tr>
         <td>
             <div class="research-box">
-                <img class="research-image research-image-blue" src="images/research/mri-hover.jpg">
-                <img class="research-image research-image-grey" src="images/research/mri.jpg">
+                <img class="research-image research-image-blue" src="images/research/mri-hover.webp">
+                <img class="research-image research-image-grey" src="images/research/mri.webp">
             </div>
         </td>
         <td><b>[Fluorine / MRI]</b>
