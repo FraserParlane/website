@@ -1,5 +1,4 @@
-<h2 class="intro-text">My research aims to accelerate the discovery and optimization of advanced clean energy materials by developing self-driving laboratories that combine flexible automation with machine learning and computational screening.</h2>
-
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus sit amet velit nec pretium. Aenean quis efficitur nibh. In venenatis eu felis congue tincidunt. Mauris in urna semper, varius odio vitae, venenatis odio.</p>
 
 <ul class="actions actions-top">
     <li><a href="php/mailto.php" class="button" target="_blank"><span class="icon solid fa-envelope"></span>Email</a></li>

@@ -3297,11 +3297,11 @@ input, select, textarea {
 }
 
 .research-image {
-	width: 14em;
-	height: 14em;
+	width: 12em;
+	height: 12em;
 	top: 0;
 	left: 0;
-    border-radius: 100%;
+    border-radius: 10%;
 }
 
 .research-image-grey {
@@ -3310,7 +3310,7 @@ input, select, textarea {
 	-moz-transition: opacity .25s ease-out;
 	-webkit-transition: opacity .25s ease-out;
 	-o-transition: opacity .25s ease-out;
-	border-radius: 100%;
+	border-radius: 10%;
 }
 
 .research-image-grey:hover {
