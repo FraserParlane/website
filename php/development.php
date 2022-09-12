@@ -30,7 +30,7 @@
     <tr>
         <td>
             Course: <i>Management Essentials for Leadership</i><br />
-            by Jacquelyn Brinkman, <i>A Graduate Pathways to Success Workshop</i>
+            by Jacquelyn Brinkman, A Graduate Pathways to Success Workshop
         </td>
         <td>2016</td>
     </tr>
@@ -44,7 +44,7 @@
     <tr>
         <td>
             Course: <i>Chemical Safety Training</i><br />
-            by Ted Sedgwick and Bruce Anderson, The University of British Columbia>
+            by Ted Sedgwick and Bruce Anderson, The University of British Columbia
         </td>
         <td>2015</td>
     </tr>
