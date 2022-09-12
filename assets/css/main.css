@@ -2444,7 +2444,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #ffffff;
 		color: #454545 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -3288,7 +3288,9 @@ input, select, textarea {
 	padding-right: 20px;
 }
 
-
+.research-table h3 {
+	margin: 0;
+}
 
 .research-box {
 	position: relative;
@@ -3297,11 +3299,11 @@ input, select, textarea {
 }
 
 .research-image {
-	width: 12em;
-	height: 12em;
+	width: 14em;
+	height: 14em;
 	top: 0;
 	left: 0;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .research-image-grey {
@@ -3310,7 +3312,7 @@ input, select, textarea {
 	-moz-transition: opacity .25s ease-out;
 	-webkit-transition: opacity .25s ease-out;
 	-o-transition: opacity .25s ease-out;
-	border-radius: 10%;
+	/*border-radius: 10%;*/
 }
 
 .research-image-grey:hover {
@@ -3408,7 +3410,7 @@ input, select, textarea {
 /* Button formatting */
 
 .actions-top {
-	padding-bottom: 150px;
+	/*padding-bottom: 150px;*/
 }
 
 .actions-top span {

@@ -25,11 +25,11 @@
 
                 <?php include 'php/intro.php'; ?>
 
-                <h1 id="education">Education</h1>
-                <?php include 'php/education.php'; ?>
-
                 <h1 id="research">Research</h1>
                 <?php include 'php/research.php'; ?>
+
+                <h1 id="education">Education</h1>
+                <?php include 'php/education.php'; ?>
 
                 <h1 id="positions">Positions</h1>
                 <?php include 'php/positions.php'; ?>
