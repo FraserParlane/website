@@ -3360,7 +3360,7 @@ input, select, textarea {
 }
 
 .press img {
-    opacity: 0.25;
+    opacity: 0.75;
     max-height: 30px;
 	max-width: 200px;
 }
@@ -3505,7 +3505,7 @@ h1 {
 
 .highlight-image {
 	width: max(18%, 120px);
-	opacity: 20%;
+	opacity: 50%;
 	padding-right: 40px;
 	padding-left: 0px;
 	padding-bottom: 20px;
