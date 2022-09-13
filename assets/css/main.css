@@ -3405,7 +3405,8 @@ input, select, textarea {
 /* Intro text */
 .intro-text {
 	/*text-align: justify;*/
-	padding-top: 30px;
+	padding-top: 80px;
+	padding-bottom: 50px;
 }
 
 /* Button formatting */
@@ -3517,4 +3518,12 @@ h1 {
 	-ms-transition: opacity 0.5s ease-in-out;
 	transition: opacity 0.5s ease-in-out;
 	opacity: 100%;
+}
+
+.heading-year {
+	color: #CCCCCC;
+}
+
+.experience-heading {
+	margin-bottom: 10px;
 }
