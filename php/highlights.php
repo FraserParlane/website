@@ -1,5 +1,5 @@
 <p class="highlight-text">
-    My 5 first-author and 11 co-author publications have been cited more than >600 times (H-index 9).
+    My 5 first-author and 11 co-author publications have been cited more than 600 times (H-index 9).
 </p>
 
 <a href="https://www.nature.com/articles/d41586-019-01683-9" target="_blank" class="highlight-link">
