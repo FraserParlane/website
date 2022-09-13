@@ -28,6 +28,7 @@
 
                 <?php include 'php/intro.php'; ?>
 
+                <h1 id="highlight">Featured in</h1>
                 <?php include 'php/highlights.php'; ?>
 
                 <h1 id="experience">Experience</h1>

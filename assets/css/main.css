@@ -2593,7 +2593,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #0d0d0d;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.webp");
+		background-image: url("images/overlay.png")/*, url("../../images/bg.webp")*/;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								110%;
@@ -3471,7 +3471,7 @@ input, select, textarea {
 	}
 }
 
-/* Name  */
+/* Name */
 .my-name {
 	/*font-family: 'Poppins', sans-serif;*/
 	font-size: 4em;
@@ -3487,4 +3487,34 @@ input, select, textarea {
 
 h1 {
 	color: rgb(19, 161, 214);
+}
+
+/* Featured */
+#highlight {
+	margin-bottom: 0px;
+}
+
+.highlight-text {
+	margin-bottom: 20px;
+}
+
+.highlight-link {
+	border-bottom: none;
+}
+
+.highlight-image {
+	width: max(18%, 120px);
+	opacity: 20%;
+	padding-right: 40px;
+	padding-left: 0px;
+	padding-bottom: 20px;
+}
+
+.highlight-image:hover {
+	filter: invert(47%) sepia(76%) saturate(2979%) hue-rotate(164deg) brightness(98%) contrast(101%);
+	-moz-transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	opacity: 100%;
 }
