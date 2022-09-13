@@ -1,6 +1,6 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
-
+/*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -138,6 +138,7 @@ input, select, textarea {
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+		font-family: 'Roboto Slab', serif;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3404,7 +3405,7 @@ input, select, textarea {
 /* Intro text */
 .intro-text {
 	/*text-align: justify;*/
-	padding-top: 10px;
+	padding-top: 30px;
 }
 
 /* Button formatting */
@@ -3468,4 +3469,18 @@ input, select, textarea {
 	ul.actions-top:not(.fixed) li .button.icon:before {
 		margin-left: -0.5em;
 	}
+}
+
+/* Name  */
+.my-name {
+	/*font-family: 'Poppins', sans-serif;*/
+	font-size: 4em;
+}
+.my-name-suffix {
+	font-size: 1.8em;
+}
+.my-name-slug {
+	color: rgba(19, 161, 214);
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5em;
 }
