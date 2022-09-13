@@ -2,7 +2,7 @@
 <span class="my-name-slug">Data Scientist, Chemist, Project Manager</span>
 
 <p class="intro-text">
-    <a class="intro-text">I am an expert in <a href="https://youtu.be/2h9-9PxwbQM">data-driven storytelling</a>, hypothesis-guided experimentation, and computational simulations. Over the past four years, I led an $8M project to build the world’s first <a href="https://www.nature.com/articles/s41467-022-28580-6">self-driving laboratory</a> to discover thin-film materials autonomously. Prior to that, I processed and visualized <a href="https://www.nature.com/articles/s41586-019-1256-6">advanced nuclear fusion</a> data at Google and <a href="https://www.nature.com/articles/s41467-017-01726-7">redefined a chemical bond</a> at Stanford.
+    I am an expert in <a href="https://youtu.be/2h9-9PxwbQM">data-driven storytelling</a>, hypothesis-guided experimentation, and computational simulations. Over the past four years, I led an $8M project to build the world’s first <a href="https://www.nature.com/articles/s41467-022-28580-6">self-driving laboratory</a> to discover thin-film materials autonomously. Prior to that, I processed and visualized <a href="https://www.nature.com/articles/s41586-019-1256-6">advanced nuclear fusion</a> data at Google and <a href="https://www.nature.com/articles/s41467-017-01726-7">redefined a chemical bond</a> at Stanford.
 </p>
 
 <ul class="actions actions-top">

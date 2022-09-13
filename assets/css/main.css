@@ -2445,12 +2445,12 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #ffffff;
+		border: solid 3px rgb(230, 230, 230);
 		color: #454545 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
-		height: 3.15em;
+		/*height: 3.15em;*/
 		height: calc(2.75em + 6px);
 		line-height: 2.75em;
 		min-width: 10em;
@@ -3483,4 +3483,8 @@ input, select, textarea {
 	color: rgba(19, 161, 214);
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.5em;
+}
+
+h1 {
+	color: rgb(19, 161, 214);
 }

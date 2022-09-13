@@ -28,8 +28,10 @@
 
                 <?php include 'php/intro.php'; ?>
 
-                <h1 id="research">Research</h1>
-                <?php include 'php/research.php'; ?>
+                <?php include 'php/highlights.php'; ?>
+
+                <h1 id="experience">Experience</h1>
+                <?php include 'php/experience.php'; ?>
 
                 <h1 id="education">Education</h1>
                 <?php include 'php/education.php'; ?>

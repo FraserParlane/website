@@ -2,7 +2,7 @@
     <a href="#body" class="image avatar"><img src="images/avatar.webp" alt="" /></a>
     <ul class="menu-links">
         <li><a href="#education">Education</a></li>
-        <li><a href="#research">Research</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#positions">Positions</a></li>
         <li><a href="#awards">Awards</a></li>
         <li><a href="#publications">Publications</a></li>
