@@ -3322,27 +3322,27 @@ input, select, textarea {
 
 /* The menu in the header. */
 
-.menu-links {
-	list-style-type: none;
-	padding-top: 50px;
-	padding-left: 0;
-	transition: border-color 0.2s ease-in-out;
-	font-size: 1.35em;
-	line-height: 1.75;
-}
+/*.menu-links {*/
+/*	list-style-type: none;*/
+/*	padding-top: 50px;*/
+/*	padding-left: 0;*/
+/*	transition: border-color 0.2s ease-in-out;*/
+/*	font-size: 1.35em;*/
+/*	line-height: 1.75;*/
+/*}*/
 
-.menu-links li {
-	padding-left: 0;
-}
+/*.menu-links li {*/
+/*	padding-left: 0;*/
+/*}*/
 
-.menu-links a {
-	color: white;
-	border-bottom: none;
-}
+/*.menu-links a {*/
+/*	color: white;*/
+/*	border-bottom: none;*/
+/*}*/
 
-.menu-links a:hover {
-	border-bottom: dotted 1px;
-}
+/*.menu-links a:hover {*/
+/*	border-bottom: dotted 1px;*/
+/*}*/
 
 .press {
     line-height: 1.5em;
@@ -3380,17 +3380,17 @@ input, select, textarea {
 
 /* Collapse tables on mobile - something like this will work*/
 @media screen and (max-width: 980px) {
-	.table-collapse :is(table, thead, tbody, th, td, tr) {
-		display: block;
-	}
+	/*.table-collapse :is(table, thead, tbody, th, td, tr) {*/
+	/*	display: block;*/
+	/*}*/
 
-	.table-collapse td:nth-child(2n+1) {
-		text-align: left;
-	}
+	/*.table-collapse td:nth-child(2n+1) {*/
+	/*	text-align: left;*/
+	/*}*/
 
-	.table-collapse td:nth-child(2n) {
-		padding-top: 10px;
-	}
+	/*.table-collapse td:nth-child(2n) {*/
+	/*	padding-top: 10px;*/
+	/*}*/
 
 	.press img {
 		opacity: 0.5;
@@ -3518,8 +3518,96 @@ h1 {
 
 .heading-year {
 	color: #CCCCCC;
+	white-space: nowrap;
 }
 
 .experience-heading {
 	margin-bottom: 10px;
 }
+
+/* The menu in the header. */
+
+.menu-links {
+	list-style-type: none;
+	padding-top: 50px;
+	padding-left: 0;
+	transition: border-color 0.2s ease-in-out;
+	font-size: 1.35em;
+	line-height: 1.75;
+}
+
+.menu-links li {
+	padding-left: 0;
+}
+
+.menu-links a {
+	color: white;
+	border-bottom: none;
+}
+
+.menu-links a:hover {
+	border-bottom: dotted 1px;
+}
+
+.image-table {
+	background-color: transparent;
+	margin: 0;
+}
+
+.image-table tr {
+	background-color: transparent !important;
+	border: transparent !important;
+}
+
+.image-table td {
+	border: transparent !important;
+	/*padding: 0;*/
+}
+
+.image-table img {
+	width: 250px;
+
+}
+
+
+/* Image side */
+.image-table td:nth-child(2n+1) {
+	padding-top: 8px;
+	padding-right: 15px;
+}
+
+/* Text side */
+.image-table td:nth-child(2n) {
+	vertical-align: top;
+	padding-top: 0;
+}
+
+/*.image-table p {*/
+/*}*/
+
+/* The collapse of the image table */
+@media screen and (max-width: 550px) {
+
+	/* Collapse */
+	.image-table :is(table, thead, tbody, th, td, tr) {
+		display: block;
+	}
+
+	/* Image alignment */
+	.image-table td:nth-child(2n+1) {
+		text-align: center;
+		align-content: center;
+	}
+
+	.image-table img {
+		width: 100%;
+	}
+}
+
+/*.table-collapse td:nth-child(2n+1) {*/
+/*	text-align: left;*/
+/*}*/
+
+/*.table-collapse td:nth-child(2n) {*/
+/*	padding-top: 10px;*/
+/*}*/

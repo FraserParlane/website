@@ -1,3 +1,15 @@
+<h3 class="experience-heading">I built the world’s first self-driving laboratory for thin films<span class="heading-year"> | 2020-2022</span></h3>
+<table class="image-table">
+    <tr>
+        <td>
+            <img src="images/research/arc.webp">
+        </td>
+        <td>
+            <p>I cofounded and led a program of >30 engineers and scientists that used <a href="https://www.nature.com/articles/s41563-021-01156-3" target="_blank">flexible automation</a> to deploy <a href="https://youtu.be/hFBMSkihjHE">self-driving laboratories</a> that automate materials discovery. As the lead data scientist, I implemented <a href="https://www.nature.com/articles/s41467-022-28580-6" target="_blank">multi-objective</a> <a href="https://www.science.org/doi/10.1126/sciadv.aaz8867" target="_blank">Bayesian optimization</a> algorithms, performed multithreaded simulations, developed data pipelines and dashboards, designed automated experiments, and designed and integrated custom spectrometers. The project resulted in <a href="https://scholar.google.com/citations?user=iNFigAoAAAAJ&hl=en" target="_blank">8 publications</a>, >200 citations, and >$1.5M in follow-on funding.</p>
+        </td>
+    </tr>
+</table>
+
 <h3 class="experience-heading">I built the world’s first self-driving laboratory for thin films<span class="heading-year"> | 2018-2022</span></h3>
 <p>I cofounded and led a program of >30 engineers and scientists that used <a href="https://www.nature.com/articles/s41563-021-01156-3" target="_blank">flexible automation</a> to deploy <a href="https://youtu.be/hFBMSkihjHE">self-driving laboratories</a> that automate materials discovery. As the lead data scientist, I implemented <a href="https://www.nature.com/articles/s41467-022-28580-6" target="_blank">multi-objective</a> <a href="https://www.science.org/doi/10.1126/sciadv.aaz8867" target="_blank">Bayesian optimization</a> algorithms, performed multithreaded simulations, developed data pipelines and dashboards, designed automated experiments, and designed and integrated custom spectrometers. The project resulted in <a href="https://scholar.google.com/citations?user=iNFigAoAAAAJ&hl=en" target="_blank">8 publications</a>, >200 citations, and >$1.5M in follow-on funding.</p>
 
