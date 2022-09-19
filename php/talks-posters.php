@@ -78,10 +78,29 @@
 <table class="years">
     <tr>
         <td>
-            [Poster]
+            Autonomously Optimizing Thin Film Morphologies Using Machine Vision<br />
+            <b>Invited presentation:</b> Canada First Research Excellence Fund Event, Stewart Blusson Quantum Matter Institute, UBC
         </td>
         <td>
-            [Year]
+            2019
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Temporal resolution of dye regeneration in mesoscopic solar cells<br />
+            <b>Invited presentation:</b> The University of British Columbia Chemistry Department
+        </td>
+        <td>
+            2016
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Utilization of the hydridophosphorane HP(OC<sub>6</sub>H<sub>4</sub>NMe)<sub>2</sub> as a ligand in Ni(II) and Pt(II) complexes<br />
+            <b>Invited presentation:</b> Murdock College Science Research Conference, Walla Walla, Washington
+        </td>
+        <td>
+            2012
         </td>
     </tr>
 </table>
