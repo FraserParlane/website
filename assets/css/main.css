@@ -3607,21 +3607,8 @@ h1 {
 	-moz-transition: opacity .25s ease-out;
 	-webkit-transition: opacity .25s ease-out;
 	-o-transition: opacity .25s ease-out;
-	/*border-radius: 10%;*/
 }
 
 .research-image-grey:hover {
 	opacity: 0;
 }
-
-.research-image-container {
-
-}
-
-/*.table-collapse td:nth-child(2n+1) {*/
-/*	text-align: left;*/
-/*}*/
-
-/*.table-collapse td:nth-child(2n) {*/
-/*	padding-top: 10px;*/
-/*}*/
