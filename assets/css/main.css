@@ -3293,33 +3293,11 @@ input, select, textarea {
 	margin: 0;
 }
 
-.research-box {
-	position: relative;
-	top: 0;
-	left: 0;
-}
-
-.research-image {
-	width: 14em;
-	height: 14em;
-	top: 0;
-	left: 0;
-    border-radius: 5%;
-}
-
-.research-image-grey {
-	position: absolute;
-	transition: opacity 0.25s ease-out;
-	-moz-transition: opacity .25s ease-out;
-	-webkit-transition: opacity .25s ease-out;
-	-o-transition: opacity .25s ease-out;
-	/*border-radius: 10%;*/
-}
-
-.research-image-grey:hover {
-	opacity: 0;
-}
-
+/*.image-box {*/
+/*	position: relative;*/
+/*	top: 0;*/
+/*	left: 0;*/
+/*}*/
 /* The menu in the header. */
 
 /*.menu-links {*/
@@ -3551,7 +3529,8 @@ h1 {
 
 .image-table {
 	background-color: transparent;
-	margin: 0;
+	margin-top: 30px;
+	padding-top: 10px;
 }
 
 .image-table tr {
@@ -3569,21 +3548,22 @@ h1 {
 
 }
 
-
 /* Image side */
 .image-table td:nth-child(2n+1) {
-	padding-top: 8px;
-	padding-right: 15px;
+	position: relative;
+	top: 0;
+	left: 0;
+	padding-top: 0px;
+	padding-left: 0px;
 }
 
 /* Text side */
 .image-table td:nth-child(2n) {
 	vertical-align: top;
 	padding-top: 0;
+	/*margin-left: 10px;*/
+	padding-left: 20px;
 }
-
-/*.image-table p {*/
-/*}*/
 
 /* The collapse of the image table */
 @media screen and (max-width: 550px) {
@@ -3602,6 +3582,29 @@ h1 {
 	.image-table img {
 		width: 100%;
 	}
+}
+
+.research-image {
+	top: 0;
+	left: 0;
+	border-radius: 5%;
+}
+
+.research-image-grey {
+	position: absolute;
+	transition: opacity 0.25s ease-out;
+	-moz-transition: opacity .25s ease-out;
+	-webkit-transition: opacity .25s ease-out;
+	-o-transition: opacity .25s ease-out;
+	/*border-radius: 10%;*/
+}
+
+.research-image-grey:hover {
+	opacity: 0;
+}
+
+.research-image-container {
+
 }
 
 /*.table-collapse td:nth-child(2n+1) {*/

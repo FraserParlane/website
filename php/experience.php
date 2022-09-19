@@ -2,7 +2,12 @@
 <table class="image-table">
     <tr>
         <td>
-            <img src="images/research/arc.webp">
+<!--            <div class="research-image-container">-->
+                <img class="research-image research-image-grey" src="images/research/sdl-grey.webp">
+                <img class="research-image" src="images/research/sdl.webp">
+<!--            </div>-->
+<!--            <img src="images/research/arc.webp">-->
+
         </td>
         <td>
             <p>I cofounded and led a program of >30 engineers and scientists that used <a href="https://www.nature.com/articles/s41563-021-01156-3" target="_blank">flexible automation</a> to deploy <a href="https://youtu.be/hFBMSkihjHE">self-driving laboratories</a> that automate materials discovery. As the lead data scientist, I implemented <a href="https://www.nature.com/articles/s41467-022-28580-6" target="_blank">multi-objective</a> <a href="https://www.science.org/doi/10.1126/sciadv.aaz8867" target="_blank">Bayesian optimization</a> algorithms, performed multithreaded simulations, developed data pipelines and dashboards, designed automated experiments, and designed and integrated custom spectrometers. The project resulted in <a href="https://scholar.google.com/citations?user=iNFigAoAAAAJ&hl=en" target="_blank">8 publications</a>, >200 citations, and >$1.5M in follow-on funding.</p>
