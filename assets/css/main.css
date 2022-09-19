@@ -3568,6 +3568,11 @@ h1 {
 /* The collapse of the image table */
 @media screen and (max-width: 550px) {
 
+	/* Table */
+	.image-table {
+		margin-top: 10px;
+	}
+
 	/* Collapse */
 	.image-table :is(table, thead, tbody, th, td, tr) {
 		display: block;
@@ -3577,6 +3582,12 @@ h1 {
 	.image-table td:nth-child(2n+1) {
 		text-align: center;
 		align-content: center;
+		padding-right: 0px;
+	}
+
+	/* Text side */
+	.image-table td:nth-child(2n) {
+		padding-left: 0px;
 	}
 
 	.image-table img {
