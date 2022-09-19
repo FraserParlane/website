@@ -3358,17 +3358,17 @@ input, select, textarea {
 
 /* Collapse tables on mobile - something like this will work*/
 @media screen and (max-width: 980px) {
-	/*.table-collapse :is(table, thead, tbody, th, td, tr) {*/
-	/*	display: block;*/
-	/*}*/
+	.table-collapse :is(table, thead, tbody, th, td, tr) {
+		display: block;
+	}
 
-	/*.table-collapse td:nth-child(2n+1) {*/
-	/*	text-align: left;*/
-	/*}*/
+	.table-collapse td:nth-child(2n+1) {
+		text-align: left;
+	}
 
-	/*.table-collapse td:nth-child(2n) {*/
-	/*	padding-top: 10px;*/
-	/*}*/
+	.table-collapse td:nth-child(2n) {
+		padding-top: 10px;
+	}
 
 	.press img {
 		opacity: 0.5;
