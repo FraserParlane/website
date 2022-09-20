@@ -2,7 +2,7 @@
 <table class="image-table">
     <tr>
         <td>
-            <img class="research-image research-image-grey" src="images/research/sdl-grey.webp">
+<!--            <img class="research-image research-image-grey" src="images/research/sdl-grey.webp">-->
             <img class="research-image" src="images/research/sdl.webp">
         </td>
         <td>
@@ -17,7 +17,7 @@
 <table class="image-table">
     <tr>
         <td>
-            <img class="research-image research-image-grey" src="images/research/berkley-grey.webp">
+<!--            <img class="research-image research-image-grey" src="images/research/berkley-grey.webp">-->
             <img class="research-image" src="images/research/berkley.webp">
         </td>
         <td>
@@ -32,7 +32,7 @@
 <table class="image-table">
     <tr>
         <td>
-            <img class="research-image research-image-grey" src="images/research/ssrl-grey.webp">
+<!--            <img class="research-image research-image-grey" src="images/research/ssrl-grey.webp">-->
             <img class="research-image" src="images/research/ssrl.webp">
         </td>
         <td>
@@ -47,7 +47,7 @@
 <table class="image-table">
     <tr>
         <td>
-            <img class="research-image research-image-grey" src="images/research/covid-grey.webp">
+<!--            <img class="research-image research-image-grey" src="images/research/covid-grey.webp">-->
             <img class="research-image" src="images/research/covid.webp">
         </td>
         <td>
