@@ -37,7 +37,7 @@
                 <h1 id="education">Education</h1>
                 <?php include 'php/education.php'; ?>
 
-                <h1 id="awards">Awards</h1>
+                <h1 id="awards">Awards & Recognitions</h1>
                 <?php include 'php/awards.php'; ?>
 
                 <h1 id="publications">Publications</h1>

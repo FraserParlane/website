@@ -1,4 +1,5 @@
 <table class="years">
+    <tr><td><a href="https://doi.org/10.1039/D2DD90013K" target="_blank">Front cover art</a> for the journal: Digital Discovery (Royal Society of Chemistry)</td><td>2022</td></tr>
     <tr><td>Innovation Award from <a href="https://www.techconnectworld.com" target="_blank">TechConnect</a></td><td>2019, 2022</td></tr>
     <tr><td><a href="https://qmi.ubc.ca/programs/quest-program/" target="_blank">QuEST fellowship</a> from the Stewart Blusson Quantum Matter Institute (SBQMI)</td><td>2016-2022</td></tr>
     <tr><td><a href="https://www.nserc-crsng.gc.ca/professors-professeurs/grants-subs/create-foncer_eng.asp" target="_blank">Collaborative Research and Training Experience (CREATE) fellowship</a> from NSERC</td><td>2015, 2016</td></tr>
