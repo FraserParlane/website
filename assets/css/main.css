@@ -2160,7 +2160,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 1em 0 0 0;
 		padding-left: 1em;
 	}
 
@@ -2446,6 +2446,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px rgb(230, 230, 230);
+		/*border: none;*/
 		color: #454545 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -3381,14 +3382,14 @@ input, select, textarea {
 
 #main h1 {
 	text-align: left;
-	padding-top: 2.5em;
+	padding-top: 0.75em;
 }
 
 /* Intro text */
 .intro-text {
 	/*text-align: justify;*/
-	padding-top: 80px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 10px;
 }
 
 /* Button formatting */
@@ -3478,7 +3479,7 @@ h1 {
 }
 
 .highlight-text {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .highlight-link {
