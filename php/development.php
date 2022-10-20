@@ -1,6 +1,15 @@
 <table class="years">
     <tr>
         <td>
+            Role: <i>Safety Officer and Fire Warden</i><br />
+            Chemistry department: The University of British Columbia
+        </td>
+        <td>
+            2015-2022
+        </td>
+    </tr>
+    <tr>
+        <td>
             Course: <i>Emergency First Aid & CPR/AED Level C</i><br />
             Canadian Red Cross
         </td>
