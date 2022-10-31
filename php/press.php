@@ -24,6 +24,14 @@
         </td>
     </tr>
     <tr>
+        <td><img src="images/articles/research-to-reality.webp"></td>
+        <td>
+            <a href="https://research2reality.com/energy-environment-nature/robot-automated-experiments-science-clean-technology-quantum-matter/" target="_blank">
+                Building a Robot That Could Help Save the Planet.
+            </a> <i>Research2Reality</i> (2020). *Personally interviewed.
+        </td>
+    </tr>
+    <tr>
         <td><img src="images/articles/national-geographic.webp"></td>
         <td>
             <a href="https://www.nationalgeographic.com/science/article/cold-fusion-remains-elusive-these-scientists-may-revive-quest" target="_blank">
