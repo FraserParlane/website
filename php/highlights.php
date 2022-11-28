@@ -1,7 +1,3 @@
-<p class="highlight-text">
-    5 first-author and 11 co-author publications. >600 citations. H-index 9.
-</p>
-
 <a href="https://www.nature.com/articles/d41586-019-01683-9" target="_blank" class="highlight-link">
     <img src="images/articles/nature.webp" class="highlight-image">
 </a>
@@ -17,3 +13,6 @@
 <a href="https://youtu.be/Ic9sFz-4dn0" target="_blank" class="highlight-link">
     <img src="images/articles/cbc.webp" class="highlight-image">
 </a>
+<p class="highlight-text">
+    5 first-author and 11 co-author publications. >600 citations. H-index 9.
+</p>

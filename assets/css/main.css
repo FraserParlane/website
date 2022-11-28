@@ -3473,11 +3473,6 @@ h1 {
 	color: rgb(19, 161, 214);
 }
 
-/* Featured */
-#highlight {
-	margin-bottom: 0px;
-}
-
 .highlight-text {
 	margin-bottom: 10px;
 }
@@ -3491,7 +3486,7 @@ h1 {
 	opacity: 75%;
 	padding-right: 40px;
 	padding-left: 0px;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 }
 
 .highlight-image:hover {
