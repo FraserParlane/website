@@ -3387,9 +3387,9 @@ input, select, textarea {
 
 /* Intro text */
 .intro-text {
-	/*text-align: justify;*/
-	padding-top: 30px;
-	padding-bottom: 10px;
+	text-align: justify;
+	padding-top: 15px;
+	padding-bottom: 5px;
 	margin-bottom: 10px;
 }
 
@@ -3565,6 +3565,7 @@ h1 {
 
 /* Text side */
 .image-table td:nth-child(2n) {
+	text-align: justify;
 	vertical-align: top;
 	padding-top: 0;
 	/*margin-left: 10px;*/
