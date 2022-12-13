@@ -41,8 +41,8 @@
 <!--                <h1 id="highlight">My research has been highlighted in</h1>-->
                 <?php include 'php/highlights.php'; ?>
 
-                <h1 id="experience">Experience</h1>
-                <?php include 'php/experience.php'; ?>
+                <h1 id="projects">Projects</h1>
+                <?php include 'php/projects.php'; ?>
 
                 <h1 id="education">Education</h1>
                 <?php include 'php/education.php'; ?>

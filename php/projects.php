@@ -1,4 +1,4 @@
-<h3 class="experience-heading">I built the world’s first self-driving laboratory for thin films<span class="heading-year"> | 2020-2022</span></h3>
+<h3 class="projects-heading">I built the world’s first self-driving laboratory for thin films<span class="heading-year"> | 2020-2022</span></h3>
 <table class="image-table">
     <tr>
         <td>

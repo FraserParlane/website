@@ -1,7 +1,7 @@
 <div class="inner">
     <a href="#body" class="image avatar"><img src="images/avatar.webp" alt="" /></a>
     <ul class="menu-links">
-        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#awards">Awards</a></li>
         <li><a href="#publications">Publications</a></li>
