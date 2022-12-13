@@ -38,7 +38,7 @@
 
                 <?php include 'php/intro.php'; ?>
 
-                <h1 id="highlight">My research has been highlighted in</h1>
+<!--                <h1 id="highlight">My research has been highlighted in</h1>-->
                 <?php include 'php/highlights.php'; ?>
 
                 <h1 id="experience">Experience</h1>
