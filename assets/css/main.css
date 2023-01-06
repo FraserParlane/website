@@ -1,6 +1,8 @@
 @import url("fontawesome-all.min.css");
-/*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Google Fonts ( */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&display=swap');
+
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -83,7 +85,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: var(--background-color);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2592,13 +2594,6 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #0d0d0d;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png")/*, url("../../images/bg.webp")*/;
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								110%;
-		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -3294,35 +3289,6 @@ input, select, textarea {
 	margin: 0;
 }
 
-/*.image-box {*/
-/*	position: relative;*/
-/*	top: 0;*/
-/*	left: 0;*/
-/*}*/
-/* The menu in the header. */
-
-/*.menu-links {*/
-/*	list-style-type: none;*/
-/*	padding-top: 50px;*/
-/*	padding-left: 0;*/
-/*	transition: border-color 0.2s ease-in-out;*/
-/*	font-size: 1.35em;*/
-/*	line-height: 1.75;*/
-/*}*/
-
-/*.menu-links li {*/
-/*	padding-left: 0;*/
-/*}*/
-
-/*.menu-links a {*/
-/*	color: white;*/
-/*	border-bottom: none;*/
-/*}*/
-
-/*.menu-links a:hover {*/
-/*	border-bottom: dotted 1px;*/
-/*}*/
-
 .press {
     line-height: 1.5em;
 }
@@ -3458,16 +3424,13 @@ input, select, textarea {
 
 /* Name */
 .my-name {
-	/*font-family: 'Poppins', sans-serif;*/
-	font-size: 4em;
-}
-.my-name-suffix {
-	font-size: 1.8em;
+	font-size: 2em;
+	font-family: var(--heading-font-family);
+	color: var(--highlight-color);
+
 }
 .my-name-slug {
-	color: rgba(19, 161, 214);
-	font-family: 'Roboto Slab', serif;
-	font-size: 1.5em;
+	color: var(--text-color);
 }
 
 h1 {
@@ -3525,12 +3488,13 @@ h1 {
 }
 
 .menu-links a {
-	color: white;
+	color: var(--highlight-color);
+	font-family: var(--heading-font-family);
 	border-bottom: none;
 }
 
 .menu-links a:hover {
-	border-bottom: dotted 1px;
+	color: var(--text-color) !important;
 }
 
 .image-table {
@@ -3618,4 +3582,18 @@ h1 {
 
 .research-image-grey:hover {
 	opacity: 0;
+}
+
+
+/* V2 CSS */
+
+
+
+
+/* Color variables */
+:root {
+	--highlight-color: #f8981d;
+	--text-color: #d9d9d9;
+	--background-color: #252525;
+	--heading-font-family: 'Roboto Mono', monospace;
 }

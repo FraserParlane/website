@@ -1,4 +1,4 @@
-<span class="my-name">Fraser <b>Parlane </b></span><span class="my-name-suffix">PhD</span><br />
+<span class="my-name">Fraser Parlane, PhD</span><br />
 <span class="my-name-slug">Data Scientist, Chemist, Project Manager</span>
 
 <ul class="actions actions-top">
