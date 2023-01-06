@@ -3425,7 +3425,7 @@ input, select, textarea {
 
 /* Name */
 .my-name {
-	font-size: 2em;
+	font-size: 3em;
 	font-family: var(--heading-font-family);
 	color: var(--highlight-color);
 
@@ -3446,20 +3446,28 @@ h1 {
 
 .highlight-link {
 	border-bottom: none;
+	/*display: flex;*/
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
 }
 
 .highlight-image {
 	width: max(18%, 120px);
 	opacity: 75%;
-	padding-right: 20px;
-	padding-left: 20px;
+	/*padding-right: 20px;*/
+	/*padding-left: 20px;*/
 	padding-bottom: 15px;
 	padding-top: 10px;
+	justify-content: space-between;
 }
 
 .highlight-image-container {
-	text-align: center;
+	/*text-align: center;*/
 	padding-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 
 }
 
@@ -3601,6 +3609,23 @@ h1 {
 
 .experience-heading {
 	padding-top: 75px;
+}
+
+h1 {
+	display: flex;
+	flex-direction: row;
+}
+h1:before, h1:after{
+	content: "";
+	flex: 1 1;
+	border-bottom: 2px solid;
+	margin: auto;
+}
+h1:before {
+	margin-right: 30px
+}
+h1:after {
+	margin-left: 30px
 }
 
 /* Color variables */
