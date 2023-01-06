@@ -1,7 +1,7 @@
 @import url("fontawesome-all.min.css");
 
 /* Google Fonts ( */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro:wght@300;400&display=swap');
 
 /*
 	Strata by HTML5 UP
@@ -100,26 +100,27 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #454545;
+		color: var(--text-color);
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
-		font-weight: 400;
+		font-weight: 300;
 		line-height: 1.75em;
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #13a1d6;
+		-moz-transition: color 0.1s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: color 0.1s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: color 0.1s ease-in-out, border-color 0.2s ease-in-out;
+		transition: color 0.1s ease-in-out, border-color 0.2s ease-in-out;
+		border-bottom: solid 2px;
+		border-bottom-color: var(--highlight-color);
+		color: var(--text-color);
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #13a1d6 !important;
+			color: var(--highlight-color) !important;
 			text-decoration: none;
 		}
 
@@ -136,11 +137,11 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #454545;
+		color: var(--text-color);
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
-		font-family: 'Roboto Slab', serif;
+		font-family: var(--heading-font-family)
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2636,7 +2637,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 10em;
+			width: 8em;
 		}
 
 /* Footer */
@@ -2693,7 +2694,7 @@ input, select, textarea {
 			#main > section:first-child {
 				border-top: 0;
 				margin-top: 0;
-				padding-top: 0;
+				padding-top: 30px;
 			}
 
 /* Poptrox */
@@ -3354,9 +3355,10 @@ input, select, textarea {
 /* Intro text */
 .intro-text {
 	text-align: justify;
-	padding-top: 15px;
+	padding-top: 110px;
 	padding-bottom: 5px;
 	margin-bottom: 10px;
+
 }
 
 /* Button formatting */
@@ -3431,10 +3433,12 @@ input, select, textarea {
 }
 .my-name-slug {
 	color: var(--text-color);
+	font-size: 1em;
 }
 
 h1 {
-	color: rgb(19, 161, 214);
+	color: var(--highlight-color);
+	font-family: var(--heading-font-family);
 }
 
 .highlight-text {
@@ -3447,7 +3451,7 @@ h1 {
 
 .highlight-image {
 	width: max(18%, 120px);
-	opacity: 75%;
+	opacity: 50%;
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-bottom: 15px;
@@ -3456,10 +3460,13 @@ h1 {
 
 .highlight-image-container {
 	text-align: center;
+	padding-bottom: 50px;
+
 }
 
+/* https://codepen.io/sosuke/pen/Pjoqqp */
 .highlight-image:hover {
-	filter: invert(47%) sepia(76%) saturate(2979%) hue-rotate(164deg) brightness(98%) contrast(101%);
+	/*filter: invert(76%) sepia(78%) saturate(2947%) hue-rotate(345deg) brightness(99%) contrast(97%);*/
 	opacity: 100%;
 }
 
@@ -3476,7 +3483,7 @@ h1 {
 
 .menu-links {
 	list-style-type: none;
-	padding-top: 50px;
+	padding-top: 25px;
 	padding-left: 0;
 	transition: border-color 0.2s ease-in-out;
 	font-size: 1.35em;
@@ -3533,7 +3540,7 @@ h1 {
 	vertical-align: top;
 	padding-top: 0;
 	/*margin-left: 10px;*/
-	padding-left: 20px;
+	padding-left: 50px;
 }
 
 /* The collapse of the image table */
@@ -3569,25 +3576,22 @@ h1 {
 .research-image {
 	top: 0;
 	left: 0;
-	border-radius: 5%;
-}
-
-.research-image-grey {
-	position: absolute;
-	transition: opacity 0.25s ease-out;
-	-moz-transition: opacity .25s ease-out;
-	-webkit-transition: opacity .25s ease-out;
-	-o-transition: opacity .25s ease-out;
-}
-
-.research-image-grey:hover {
-	opacity: 0;
+	box-shadow: var(--highlight-color) 10px 10px;
 }
 
 
 /* V2 CSS */
+.action-link {
+	border-bottom: none;
+}
 
-
+.action-link-block {
+	font-family: var(--heading-font-family);
+	color: var(--text-color);
+	font-size: var(--heading-fonts-size);
+	padding-top: 75px;
+	padding-bottom: 25px;
+}
 
 
 /* Color variables */
@@ -3596,4 +3600,5 @@ h1 {
 	--text-color: #d9d9d9;
 	--background-color: #252525;
 	--heading-font-family: 'Roboto Mono', monospace;
+	--heading-fonts-size: 1.5em;
 }
