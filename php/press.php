@@ -1,6 +1,6 @@
 <table class="press table-collapse">
     <tr>
-        <td><img src="images/articles/science.webp"></td>
+        <td><img src="images/articles/science-white.webp"></td>
         <td>
             <a href="https://www.science.org/content/article/ai-driven-robots-are-making-new-materials-improving-solar-cells-and-other-technologies" target="_blank">
                 AI-driven robots are making new materials, improving solar cells and other technologies.
@@ -8,7 +8,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/world-economic-forum.webp"></td>
+        <td><img src="images/articles/world-economic-forum-white.webp"></td>
         <td>
             <a href="https://www.weforum.org/agenda/2019/01/how-ai-is-revolutionising-the-world-of-clean-energy-materials/" target="_blank">
                 How AI is revolutionizing the world of clean energy materials.
@@ -16,7 +16,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/canada.webp"></td>
+        <td><img src="images/articles/canada-white.webp"></td>
         <td>
             <a href="https://www.canada.ca/en/natural-resources-canada/news/2018/11/canada-invests-in-first-of-its-kind-robotic-platform-at-university-of-british-columbia.html" target="_blank">
                 Canada Invests in First-of-its-Kind Robotic Platform at University of British Columbia.
@@ -24,7 +24,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/research-to-reality.webp"></td>
+        <td><img src="images/articles/research-to-reality-white.webp"></td>
         <td>
             <a href="https://research2reality.com/energy-environment-nature/robot-automated-experiments-science-clean-technology-quantum-matter/" target="_blank">
                 Building a Robot That Could Help Save the Planet.
@@ -32,7 +32,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/national-geographic.webp"></td>
+        <td><img src="images/articles/national-geographic-white.webp"></td>
         <td>
             <a href="https://www.nationalgeographic.com/science/article/cold-fusion-remains-elusive-these-scientists-may-revive-quest" target="_blank">
                 Cold fusion remains elusive—but these scientists may revive the quest.
@@ -40,7 +40,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/forbes.webp"></td>
+        <td><img src="images/articles/forbes-white.webp"></td>
         <td>
             <a href="https://www.forbes.com/sites/stevensalzberg/2019/06/10/google-ran-a-secret-experiment-to-search-for-cold-fusion-did-they-find-it" target="_blank">
                 Google Ran A Secret Experiment To Search For Cold Fusion. Did They Find It?
@@ -48,7 +48,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/financial-times.webp"></td>
+        <td><img src="images/articles/financial-times-white.webp"></td>
         <td>
             <a href="https://www.ft.com/content/4233196a-82cb-11e9-b592-5fe435b57a3b" target="_blank">
                 Thirty years later, the cold fusion dream is still alive.
@@ -56,7 +56,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/nature.webp"></td>
+        <td><img src="images/articles/nature-white.webp"></td>
         <td>
             <a href="https://www.nature.com/articles/d41586-019-01683-9" target="_blank">
                 Google revives controversial cold-fusion experiments.
@@ -64,7 +64,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/cbc.webp"></td>
+        <td><img src="images/articles/cbc-white.webp"></td>
         <td>
             <a href="https://youtu.be/Ic9sFz-4dn0" target="_blank">
                 Funding for clean energy robot.
@@ -72,7 +72,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/the-globe-and-mail.webp"></td>
+        <td><img src="images/articles/the-globe-and-mail-white.webp"></td>
         <td>
             <a href="https://www.theglobeandmail.com/canada/british-columbia/article-ai-robot-lends-ubc-a-hand-in-alternative-energy-research/" target="_blank">
                 AI robot lends UBC a hand in alternative-energy research.
@@ -80,7 +80,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/business-insider.webp"></td>
+        <td><img src="images/articles/business-insider-white.webp"></td>
         <td>
             <a href="https://markets.businessinsider.com/news/stocks/canada-invests-in-first-of-its-kind-robotic-platform-at-university-of-british-columbia-1027764292" target="_blank">
                 Canada Invests in First-of-its-Kind Robotic Platform at University of British Columbia.
@@ -88,7 +88,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/mobile-syrup.webp"></td>
+        <td><img src="images/articles/mobile-syrup-white.webp"></td>
         <td>
             <a href="https://mobilesyrup.com/2018/11/30/university-of-british-columbia-researchers-ai-robot-platform-clean-energy/" target="_blank">
                 BC researchers working on ‘first-of-its-kind’ AI-powered clean energy robotic platform.
@@ -96,7 +96,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/inside-unmanned-systems.webp"></td>
+        <td><img src="images/articles/inside-unmanned-systems-white.webp"></td>
         <td>
             <a href="https://insideunmannedsystems.com/ada-a-self-driving-laboratory-for-clean-energy-technologies/" target="_blank">
                 Ada: A Self-driving Laboratory for Clean Energy Technologies.
@@ -104,7 +104,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/ubc.webp"></td>
+        <td><img src="images/articles/ubc-white.webp"></td>
         <td>
             <a href="https://science.ubc.ca/news/halogens-can-increase-solar-cell-performance-25-cent" target="_blank">
                 Halogens can increase solar cell performance by 25 per cent.
@@ -112,7 +112,7 @@
         </td>
     </tr>
     <tr>
-        <td><img src="images/articles/twu.webp"></td>
+        <td><img src="images/articles/twu-white.webp"></td>
         <td>
             <a href="https://issuu.com/trinity_western_university/docs/tw_magazine_issue_25-pages-final" target="_blank">
                 Elemental art.

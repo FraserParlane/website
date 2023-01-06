@@ -2383,7 +2383,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				/*background-color: #f7f7f7;*/
 			}
 
 		table td {
@@ -3245,7 +3245,6 @@ input, select, textarea {
 }
 
 .years tr td {
-	background-color: #ffffff;
 	border: none;
 	border-image-width: 0;
 	padding-bottom: 15px;
@@ -3451,7 +3450,7 @@ h1 {
 
 .highlight-image {
 	width: max(18%, 120px);
-	opacity: 50%;
+	opacity: 75%;
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-bottom: 15px;
@@ -3506,8 +3505,9 @@ h1 {
 
 .image-table {
 	background-color: transparent;
-	margin-top: 30px;
-	padding-top: 10px;
+	/*margin-top: 30px;*/
+	/*padding-top: 10px;*/
+	/*margin-bottom: 100px;*/
 }
 
 .image-table tr {
@@ -3593,6 +3593,15 @@ h1 {
 	padding-bottom: 25px;
 }
 
+.year-slug {
+	color: var(--highlight-color);
+	text-align: right;
+	font-style: var(--heading-font-family);
+}
+
+.experience-heading {
+	padding-top: 75px;
+}
 
 /* Color variables */
 :root {
