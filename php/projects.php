@@ -43,7 +43,7 @@
     </tr>
 </table>
 
-<h3 class="experience-heading">I developed an enclosure to protect healthcare workers from COVID-19</h3>
+<h3 class="experience-heading">I developed an enclosure to protect clinicians from COVID-19</h3>
 <table class="image-table">
     <tr>
         <td>
