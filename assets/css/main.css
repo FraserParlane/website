@@ -3444,32 +3444,41 @@ h1 {
 	margin-bottom: 50px;
 }
 
-.highlight-link {
-	border-bottom: none;
-	/*display: flex;*/
-	justify-content: space-between;
-	margin: 0;
-	padding: 0;
-}
-
-.highlight-image {
-	width: max(18%, 120px);
-	opacity: 75%;
-	/*padding-right: 20px;*/
-	/*padding-left: 20px;*/
-	padding-bottom: 15px;
-	padding-top: 10px;
-	justify-content: space-between;
-}
-
 .highlight-image-container {
-	/*text-align: center;*/
 	padding-bottom: 50px;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
-
+	justify-content: space-around;
 }
+
+.highlight-link {
+	border-bottom: none;
+	display: block;
+}
+
+.highlight-image {
+	opacity: 75%;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	width: 100px;
+}
+
+@media screen and (max-width: 700px) {
+	.highlight-image-container {
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+	.highlight-image {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+/*@media screen and (max-width: 500px) {*/
+
+/*}*/
+
+
 
 /* https://codepen.io/sosuke/pen/Pjoqqp */
 .highlight-image:hover {
