@@ -47,16 +47,16 @@
                 <h1 id="education">Education</h1>
                 <?php include 'php/education.php'; ?>
 
-                <h1 id="awards">Awards & Recognitions</h1>
+                <h1 id="awards">Awards</h1>
                 <?php include 'php/awards.php'; ?>
 
                 <h1 id="publications">Publications</h1>
                 <?php include 'php/publications.php'; ?>
 
-                <h1 id="talks-posters">Talks & Posters</h1>
-                <?php include 'php/talks-posters.php'; ?>
+                <h1 id="presentations">Presentations</h1>
+                <?php include 'php/presentations.php'; ?>
 
-                <h1 id="development">Professional development</h1>
+                <h1 id="development">Development</h1>
                 <?php include 'php/development.php'; ?>
 
                 <h1 id="press">Press</h1>

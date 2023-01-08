@@ -3352,7 +3352,7 @@ input, select, textarea {
 /* Intro text */
 .intro-text {
 	text-align: justify;
-	padding-top: 110px;
+	padding-top: 80px;
 	padding-bottom: 5px;
 	margin-bottom: 10px;
 
@@ -3655,7 +3655,6 @@ h1:after {
 		font-size: 2em;
 	}
 }
-
 
 /* Color variables */
 :root {
