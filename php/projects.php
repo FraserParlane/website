@@ -13,6 +13,13 @@
     </tr>
 </table>
 
+<!-- Ada video -->
+<!--<div class="video-container">-->
+<!--    <iframe width="560" height="315" src="https://www.youtube.com/embed/OiR98MhdJ4k?autoplay=1&controls=1&showinfo=0&mute=1&vq=hd1080p&loop=1&playlist=OiR98MhdJ4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>-->
+<!--</div>-->
+
+<div style="padding:56.25% 0 0 0;position:relative; pointer-events: none;"><iframe src="https://player.vimeo.com/video/787749779?h=b508cc7f32&autoplay=1&loop=1&autopause=0&muted=1&badge=0&autopause=0&player_id=0&app_id=58479&title=0&sidedock=0&controls=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ada Loop.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 <h3 class="experience-heading">I processed data from a nuclear fusion reactor at Google</h3>
 <table class="image-table">
     <tr>
