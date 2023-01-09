@@ -61,7 +61,7 @@
 
 <h3 class="experience-heading">I taught chemistry laboratories and lectures at UBC</h3>
 <p>
-    As a laboratory lecturer and teaching assistant, I Instructed >600 students and mentored 28 teaching assistants. I received >95% favorable <a href="http://demo.parlane.ca/documents/Fraser-Parlane-TA-evaluations.pdf" target="_blank">course reviews</a>.<span class="year-slug"> | 2015-2016, 2020</span>
+    As a laboratory lecturer and teaching assistant, I Instructed >600 students and mentored 28 teaching assistants. I received >95% favorable <a href="http://parlane.ca/documents/Fraser-Parlane-TA-evaluations.pdf" target="_blank">course reviews</a>.<span class="year-slug"> | 2015-2016, 2020</span>
 </p>
 
 <h3 class="experience-heading">I developed novel fluorine polymers for MRI contrast reagents</h3>
