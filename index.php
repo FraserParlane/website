@@ -37,8 +37,6 @@
             <section>
 
                 <?php include 'php/intro.php'; ?>
-
-<!--                <h1 id="highlight">My research has been highlighted in</h1>-->
                 <?php include 'php/highlights.php'; ?>
 
                 <h1 id="projects">Projects</h1>
@@ -47,22 +45,20 @@
                 <h1 id="education">Education</h1>
                 <?php include 'php/education.php'; ?>
 
-                <h1 id="awards">Awards & Recognitions</h1>
+                <h1 id="awards">Awards</h1>
                 <?php include 'php/awards.php'; ?>
 
                 <h1 id="publications">Publications</h1>
                 <?php include 'php/publications.php'; ?>
 
-                <h1 id="talks-posters">Talks & Posters</h1>
-                <?php include 'php/talks-posters.php'; ?>
+                <h1 id="presentations">Presentations</h1>
+                <?php include 'php/presentations.php'; ?>
 
-                <h1 id="development">Professional development</h1>
+                <h1 id="development">Development</h1>
                 <?php include 'php/development.php'; ?>
 
                 <h1 id="press">Press</h1>
                 <?php include 'php/press.php'; ?>
-
-                <!-- lab placements (see CREATE), Periodic table, CSID, conference proceedings, -->
 
             </section>
         </div>
@@ -71,7 +67,7 @@
         <footer id="footer">
             <div class="inner">
                 <ul class="copyright">
-                    <li>&copy; Fraser Parlane</li>
+                    <li class="copyright-slug">&copy; Fraser Parlane</li>
                 </ul>
             </div>
         </footer>
