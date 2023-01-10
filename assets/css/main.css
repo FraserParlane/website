@@ -3457,6 +3457,7 @@ h1 {
 
 .highlight-image-container {
 	padding-bottom: 50px;
+	padding-top: 50px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
