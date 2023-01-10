@@ -14,9 +14,10 @@
 </table>
 
 <!-- Ada video -->
-<video width="100%" autoplay loop muted>
+<video width="100%" autoplay loop muted style="display: block;">
     <source src="videos/ada_loop.mp4" type="video/mp4">
 </video>
+<div class="video-caption">Our self-driving lab accelerates the discovery and optimization of clean-energy materials by combining flexible automation with machine learning. <a href="https://www.youtube.com/watch?v=hFBMSkihjHE" target="_blank">Full video</a>.</div>
 
 <h3 class="experience-heading">I processed data from a nuclear fusion reactor at Google</h3>
 <table class="image-table">
