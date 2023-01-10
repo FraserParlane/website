@@ -11,7 +11,7 @@
     </tr>
     <tr>
         <td>
-            102<sup>nd</sup> Canadian Chemistry Conference and Exhibition (CCCE) (Quebec City, Quebec)<br />
+            102<sup>nd</sup> Canadian Chemistry Conference and Exhibition (CCCE; Quebec City, Quebec)<br />
             <b>Invited talk:</b> <i>Automated UV-Vis-NIR acquisition to enable autonomous optimization of thin films for electronics applications.</i>
         </td>
         <td>
@@ -47,7 +47,7 @@
     </tr>
     <tr>
         <td>
-            Stewart Blusson Quantum Matter Institute (SBQMI) retreat (Vancouver, British Columbia)<br />
+            Stewart Blusson Quantum Matter Institute retreat (SBQMI; Vancouver, British Columbia)<br />
             <b>Invited talk:</b> <i>Project Ada: Optimizing a disordered organic semiconductor using an autonomous laboratory.</i>
         </td>
         <td>
@@ -56,7 +56,7 @@
     </tr>
     <tr>
         <td>
-            International Scientific Advisory Board (ISAB) for Stewart Blusson Quantum Matter Institute (SBQMI, Vancouver, British Columbia)<br />
+            International Scientific Advisory Board (ISAB) for Stewart Blusson Quantum Matter Institute (SBQMI; Vancouver, British Columbia)<br />
             <b>Invited talk:</b> <i>Ada: Automated discovery of alloys.</i>
         </td>
         <td>
@@ -104,4 +104,3 @@
         </td>
     </tr>
 </table>
-<!--Visual grammar, boston, TWU, etc.-->

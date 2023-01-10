@@ -3485,7 +3485,6 @@ h1 {
 	}
 }
 
-/* https://codepen.io/sosuke/pen/Pjoqqp */
 .highlight-image:hover {
 	opacity: 100%;
 }
@@ -3536,7 +3535,6 @@ h1 {
 
 .image-table td {
 	border: transparent !important;
-	/*padding: 0;*/
 }
 
 .image-table img {
@@ -3570,7 +3568,6 @@ h1 {
 	text-align: justify;
 	vertical-align: top;
 	padding-top: 0;
-	/*margin-left: 10px;*/
 	padding-left: 50px;
 }
 
@@ -3643,6 +3640,10 @@ h1 {
 	font-size: 12pt;
 	font-weight: 200;
 	line-height: 1.5em;
+}
+
+.copyright-slug {
+	font-family: var(--heading-font-family) !important;
 }
 
 h1 {
