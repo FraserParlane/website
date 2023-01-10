@@ -9,9 +9,9 @@ A (*) denotes where two authors contributed equally.<br /><br />
 
     <tr><td> MacLeod, B. P.*, <b>Parlane, F. G. L.*</b>, Rupnow, C. C., Dettelbach, K. E., Elliott, M. S., Morrissey, T. D., Haley, T. H., Proskurin, O., Rooney, M. B., Taherimakhsousi, N., Dvorak, D. J., Chiu, H. N., Waizenegger, C. E. B., Ocean, K., Mokhtari, M., & Berlinguette, C. P. <a href="https://www.nature.com/articles/s41467-022-28580-6" target="_blank">A self-driving laboratory advances the Pareto front for material properties.</a> <i>Nat Commun</i> <b>1</b>, 45-51 (2022).</td></tr>
 
-    <tr><td> Huang, A., Delima, R. S., Kim, Y., Lees, E. W., <b>Parlane, F. G. L.</b>, Dvorak, D. J., Rooney, M. B., Jansonius, R. P., Fink, A. G., Zhang, Z., & Berlinguette, C. P. <a href="https://pubs.acs.org/doi/10.1021/jacs.2c03158" target="_blank">Direct H<sub>2</sub>O<sub>2</sub> Synthesis, without H<sub>2</sub> Gas.</a> <i>J. Am. Chem. Soc.</i> <b>32</b>, 14548-14554 (2022).</td></tr>
+    <tr><td> MacLeod, B. P., <b>Parlane, F. G. L.</b>, Brown, A. K., Hein, J. E., & Berlinguette, C. P. <a href="https://www.nature.com/articles/s41563-021-01156-3" target="_blank">Flexible automation accelerates materials discovery.</a> <i>Nat. Mater.</i> <b>7</b>, 722-726 (2022).</td></tr>
 
-    <tr><td> MacLeod, B. P., <b>Parlane, F. G. L.</b>, Brown, A. K., Hein, J. E., & Berlinguette, C. P. <a href="https://www.nature.com/articles/s41563-021-01156-3" target="_blank">Flexible automation accelerates materials discovery.</a> <i>Nat. Mater.</i> <b>7</b>, 722-726 (2021).</td></tr>
+    <tr><td> Huang, A., Delima, R. S., Kim, Y., Lees, E. W., <b>Parlane, F. G. L.</b>, Dvorak, D. J., Rooney, M. B., Jansonius, R. P., Fink, A. G., Zhang, Z., & Berlinguette, C. P. <a href="https://pubs.acs.org/doi/10.1021/jacs.2c03158" target="_blank">Direct H<sub>2</sub>O<sub>2</sub> Synthesis, without H<sub>2</sub> Gas.</a> <i>J. Am. Chem. Soc.</i> <b>32</b>, 14548-14554 (2022).</td></tr>
 
     <tr><td> Lees, E. W., Mowbray, B. A. W., <b>Parlane, F. G. L.</b>, & Berlinguette, C. P. <a href="https://www.nature.com/articles/s41578-021-00356-2" target="_blank">Gas diffusion electrodes and membranes for CO<sub>2</sub> reduction electrolysers.</a> <i>Nat Rev Mater</i> <b>1</b>, 55-64 (2021).</td></tr>
 

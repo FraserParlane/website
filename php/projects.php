@@ -64,7 +64,7 @@
 <video width="100%" autoplay loop muted style="display: block;">
     <source src="videos/covid_loop.mp4" type="video/mp4">
 </video>
-<div class="video-caption">Our patient enclosure protects staff when performing procedures on infectious patients. We developed the enclosure design at BC Children's Hospital (Vancouver, BC) <a href="http://covidbox.ca" target="_blank">CovidBox website</a>.</div>
+<div class="video-caption">Our patient enclosure protects staff when performing procedures on infectious patients. We developed the enclosure design at BC Children's Hospital (Vancouver, BC). <a href="http://covidbox.ca" target="_blank">CovidBox website</a>.</div>
 
 
 <h3 class="experience-heading">I taught chemistry laboratories and lectures at UBC</h3>
