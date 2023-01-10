@@ -3507,6 +3507,7 @@ h1 {
 	padding-left: 0;
 	transition: border-color 0.2s ease-in-out;
 	font-size: 1.35em;
+	font-weight: 400;
 	line-height: 1.75;
 }
 
@@ -3628,6 +3629,7 @@ h1 {
 	text-align: right;
 	font-style: var(--heading-font-family);
 	white-space: nowrap;
+	font-weight: 400;
 }
 
 .experience-heading {
