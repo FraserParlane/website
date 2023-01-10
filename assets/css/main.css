@@ -3420,6 +3420,7 @@ input, select, textarea {
 	font-size: 3em;
 	font-family: var(--heading-font-family);
 	color: var(--highlight-color);
+	font-weight: 400;
 }
 
 @media screen and (max-width: 650px) {
