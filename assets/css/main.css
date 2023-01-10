@@ -3635,10 +3635,7 @@ h1 {
 
 .video-caption {
 	background-color: rgb(26, 26, 26);
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 30px;
 	font-family: var(--heading-font-family);
 	font-size: 12pt;
 	font-weight: 200;
